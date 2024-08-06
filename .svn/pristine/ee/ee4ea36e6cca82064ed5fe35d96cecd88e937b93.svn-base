@@ -1,0 +1,6 @@
+@import '../../../theme/web/custom-variables';
+
+.mx-window-footer {
+    position: relative;
+    bottom: 0;
+}

@@ -1,0 +1,79 @@
+Initialized native services in: C:\Users\User\.gradle\native
+Initialized jansi services in: C:\Users\User\.gradle\native
+Received JVM installation metadata from 'C:\Program Files\Eclipse Adoptium\jdk-11.0.20.101-hotspot': {JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-11.0.20.101-hotspot, JAVA_VERSION=11.0.20.1, JAVA_VENDOR=Eclipse Adoptium, RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=11.0.20.1+1, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=11.0.20.1+1, VM_VENDOR=Eclipse Adoptium, OS_ARCH=amd64}
+Removing 1 daemon stop events from registry
+Starting a Gradle Daemon (subsequent builds will be faster)
+Starting process 'Gradle build daemon'. Working directory: C:\Users\User\.gradle\daemon\7.6.3 Command: C:\Program Files\Eclipse Adoptium\jdk-11.0.20.101-hotspot\bin\java.exe --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.prefs/java.util.prefs=ALL-UNNAMED --add-opens=java.base/java.nio.charset=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED -XX:MaxMetaspaceSize=256m -XX:+HeapDumpOnOutOfMemoryError -Xms256m -Xmx512m -Dfile.encoding=windows-1252 -Duser.country=US -Duser.language=en -Duser.variant -cp C:\Program Files\Mendix\gradle-7.6.3\lib\gradle-launcher-7.6.3.jar org.gradle.launcher.daemon.bootstrap.GradleDaemon 7.6.3
+Successfully started process 'Gradle build daemon'
+An attempt to start the daemon took 1.188 secs.
+The client will now receive all logging from the daemon (pid: 24556). The daemon log file: C:\Users\User\.gradle\daemon\7.6.3\daemon-24556.out.log
+Starting build in new daemon [memory: 512 MiB]
+Using 16 worker leases.
+Received JVM installation metadata from 'C:\Program Files\Eclipse Adoptium\jdk-11.0.20.101-hotspot': {JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-11.0.20.101-hotspot, JAVA_VERSION=11.0.20.1, JAVA_VENDOR=Eclipse Adoptium, RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=11.0.20.1+1, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=11.0.20.1+1, VM_VENDOR=Eclipse Adoptium, OS_ARCH=amd64}
+Watching the file system is configured to be enabled if available
+Now considering [C:\Users\User\Mendix\Al Bawani BDT-main\deployment] as hierarchies to watch
+File system watching is active
+Starting Build
+Settings evaluated using settings file 'C:\Users\User\Mendix\Al Bawani BDT-main\deployment\settings.gradle'.
+Projects loaded. Root project using build file 'C:\Users\User\Mendix\Al Bawani BDT-main\deployment\build.gradle'.
+Included projects: [root project 'deployment']
+
+> Configure project :
+Evaluating root project 'deployment' using build file 'C:\Users\User\Mendix\Al Bawani BDT-main\deployment\build.gradle'.
+All projects evaluated.
+Task name matched 'clean-excluded-jars'
+Task name matched 'deploy'
+Selected primary task 'clean-excluded-jars' from project :
+Selected primary task 'deploy' from project :
+Tasks to be executed: [task ':clean-excluded-jars', task ':copyDeploymentArtifacts', task ':copyResources', task ':copyUserLibs', task ':unzipDataSnapshot', task ':deploy']
+Tasks that were excluded: []
+Resolve mutations for :clean-excluded-jars (Thread[Execution worker,5,main]) started.
+:clean-excluded-jars (Thread[Execution worker,5,main]) started.
+destroyer locations for task group 0 (Thread[included builds,5,main]) started.
+
+> Task :clean-excluded-jars UP-TO-DATE
+Caching disabled for task ':clean-excluded-jars' because:
+  Build cache is disabled
+Task ':clean-excluded-jars' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+Resolve mutations for :copyDeploymentArtifacts (Thread[Execution worker,5,main]) started.
+:copyDeploymentArtifacts (Thread[Execution worker,5,main]) started.
+
+> Task :copyDeploymentArtifacts
+Caching disabled for task ':copyDeploymentArtifacts' because:
+  Build cache is disabled
+Task ':copyDeploymentArtifacts' is not up-to-date because:
+  Task state is not tracked.
+Resolve mutations for :copyResources (Thread[Execution worker,5,main]) started.
+:copyResources (Thread[Execution worker,5,main]) started.
+
+> Task :copyResources NO-SOURCE
+Skipping task ':copyResources' as it has no source files and no previous output files.
+Resolve mutations for :copyUserLibs (Thread[Execution worker,5,main]) started.
+:copyUserLibs (Thread[Execution worker,5,main]) started.
+
+> Task :copyUserLibs NO-SOURCE
+Skipping task ':copyUserLibs' as it has no source files and no previous output files.
+Resolve mutations for :unzipDataSnapshot (Thread[Execution worker,5,main]) started.
+:unzipDataSnapshot (Thread[Execution worker,5,main]) started.
+
+> Task :unzipDataSnapshot SKIPPED
+Skipping task ':unzipDataSnapshot' as task onlyIf 'Task is enabled' is false.
+Resolve mutations for :deploy (Thread[Execution worker,5,main]) started.
+:deploy (Thread[Execution worker,5,main]) started.
+
+> Task :deploy
+Skipping task ':deploy' as it has no actions.
+
+BUILD SUCCESSFUL in 4s
+2 actionable tasks: 1 executed, 1 up-to-date
+Watched directory hierarchies: []
+VCS Checkout Cache (C:\Users\User\Mendix\Al Bawani BDT-main\deployment\.gradle\vcs-1) removing files not accessed on or after Tue Jul 30 15:39:49 AST 2024.
+VCS Checkout Cache (C:\Users\User\Mendix\Al Bawani BDT-main\deployment\.gradle\vcs-1) cleanup deleted 0 files/directories.
+VCS Checkout Cache (C:\Users\User\Mendix\Al Bawani BDT-main\deployment\.gradle\vcs-1) cleaned up in 0.001 secs.
+dependencies-accessors (C:\Users\User\Mendix\Al Bawani BDT-main\deployment\.gradle\7.6.3\dependencies-accessors) removing files not accessed on or after Tue Jul 30 15:39:50 AST 2024.
+dependencies-accessors (C:\Users\User\Mendix\Al Bawani BDT-main\deployment\.gradle\7.6.3\dependencies-accessors) cleanup deleted 0 files/directories.
+dependencies-accessors (C:\Users\User\Mendix\Al Bawani BDT-main\deployment\.gradle\7.6.3\dependencies-accessors) cleaned up in 0.0 secs.
+
+
+

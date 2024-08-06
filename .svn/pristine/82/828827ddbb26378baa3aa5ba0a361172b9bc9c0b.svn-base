@@ -1,0 +1,31 @@
+@import '../../../theme/web/custom-variables';
+
+.mx-window-footer {
+    padding: 15px 20px;
+}
+
+.col-spacing-none {
+    padding: 0 !important;
+}
+
+.card-highlight {
+    background-color: #F9FAFB;
+    padding: $spacing-medium;
+    border-radius: $border-radius-default;
+}
+
+.card-highlight-light {
+    background-color: #ffffff;
+    padding: $spacing-medium;
+    border-radius: $border-radius-default;
+}
+
+.mx-dialog .modal-body {
+    text-align: center;
+}
+
+.widget-tooltip .widget-tooltip-content {
+    font-weight: normal;
+    color: $font-color-default;
+}
+

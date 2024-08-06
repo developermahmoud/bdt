@@ -1,0 +1,17 @@
+DROP INDEX "idx_main$comment_system$owner";
+DROP INDEX "idx_main$comment_system$changedby";
+DELETE FROM "mendixsystem$attribute"  WHERE "id" = 'd6d17110-1661-3498-9469-4899256115b2';
+DELETE FROM "mendixsystem$attribute"  WHERE "id" = 'e3b01116-f37e-3575-bc42-fddb0699c06d';
+DELETE FROM "mendixsystem$association"  WHERE "id" = '34542fea-65f7-3c05-afac-c6c9c2fce2ae';
+DELETE FROM "mendixsystem$association"  WHERE "id" = '63de5b6a-2907-3b0b-b768-01919453ec6f';
+DELETE FROM "mendixsystem$index"  WHERE "id" = '5e12357a-e4c6-31b6-9469-9846abc5eade';
+DELETE FROM "mendixsystem$index_column"  WHERE "index_id" = '5e12357a-e4c6-31b6-9469-9846abc5eade';
+DELETE FROM "mendixsystem$index"  WHERE "id" = '812b442a-1d31-3d7b-ae40-cdfda131a3dd';
+DELETE FROM "mendixsystem$index_column"  WHERE "index_id" = '812b442a-1d31-3d7b-ae40-cdfda131a3dd';
+UPDATE "mendixsystem$entity" SET "entity_name" = 'Main.Comment', "table_name" = 'main$comment', "superentity_id" = '170ce49d-f29c-4fac-99a6-b55e8a3aeb39', "remote" = false, "remote_primary_key" = false WHERE "id" = 'dc63c3c7-ea3d-4024-b737-d84edc8803b8';
+INSERT INTO "system$filedocument" ("id", "submetaobjectname", "system$owner", "system$changedby", "createddate", "changeddate", "fileid", "deleteafterdownload", "hascontents", "size", "__filename__") SELECT  "id", 'Main.Comment', "system$owner", "system$changedby", "createddate", "changeddate", NEXT VALUE FOR "system$filedocument_fileid_mxseq", false, false, -1, 0 FROM "main$comment" ORDER BY "id" ASC;
+ALTER TABLE "main$comment" DROP COLUMN "createddate";
+ALTER TABLE "main$comment" DROP COLUMN "changeddate";
+ALTER TABLE "main$comment" DROP COLUMN "system$owner";
+ALTER TABLE "main$comment" DROP COLUMN "system$changedby";
+UPDATE "mendixsystem$version" SET "versionnumber" = '4.2', "lastsyncdate" = '20240805 15:45:15';
