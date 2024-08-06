@@ -2,11 +2,11 @@ ext {
 	mendixJavaVersion = 11
 	mendixInstallDir = "C:/Program Files/Mendix/9.24.22.36298"
 	projectName = "Al Bawani BDT"
-	projectSafeName = "Al_Bawani_BDT_main"
-	mendixProjectDir = "C:/Users/User/Mendix/Al Bawani BDT-main"
-	deploymentDir = "C:/Users/User/Mendix/Al Bawani BDT-main/deployment"
-	dataSnapshotFile = "C:/Users/User/Mendix/Al Bawani BDT-main/data-snapshot.zip"
-	dataDir = "C:/Users/User/Mendix/Al Bawani BDT-main/deployment/data"
+	projectSafeName = "BDT"
+	mendixProjectDir = "C:/Users/User/Mendix/BDT"
+	deploymentDir = "C:/Users/User/Mendix/BDT/deployment"
+	dataSnapshotFile = "C:/Users/User/Mendix/BDT/data-snapshot.zip"
+	dataDir = "C:/Users/User/Mendix/BDT/deployment/data"
 	extractDataSnapshot = false
 	templatesDir = "C:/Program Files/Mendix/9.24.22.36298/modeler/runtemplates"
 	runDir = "run"

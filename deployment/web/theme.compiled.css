@@ -26857,6 +26857,12 @@ input[type=checkbox].three-state-checkbox + .control-label {
   margin: 24px 0;
 }
 
+.custom-tableHeader {
+  background-color: #E6EEE6;
+  padding: 16px;
+  border-radius: 4px 0;
+}
+
 /* Scrollbar */
 /* width */
 ::-webkit-scrollbar {

@@ -1,8 +1,8 @@
 {
   "watchFolders": [
-    "C:/Users/User/Mendix/Al Bawani BDT-main/theme",
-    "C:/Users/User/Mendix/Al Bawani BDT-main/javascriptsource",
-    "C:/Users/User/Mendix/Al Bawani BDT-main/themesource",
+    "C:/Users/User/Mendix/BDT/theme",
+    "C:/Users/User/Mendix/BDT/javascriptsource",
+    "C:/Users/User/Mendix/BDT/themesource",
     "C:/Program Files/Mendix/9.24.22.36298/modeler/tools/node/node_modules"
   ],
   "resolver": {
@@ -23,7 +23,7 @@
       "js_commonjs-module"
     ],
     "extraNodeModules": {
-      "externalWidgets": "C:/Users/User/Mendix/Al Bawani BDT-main/deployment/native/externalWidgets",
+      "externalWidgets": "C:/Users/User/Mendix/BDT/deployment/native/externalWidgets",
       "@babel/runtime": "C:/Program Files/Mendix/9.24.22.36298/modeler/tools/node/node_modules/@babel/runtime",
       "big.js": "C:/Program Files/Mendix/9.24.22.36298/modeler/tools/node/node_modules/big.js",
       "react": "C:/Program Files/Mendix/9.24.22.36298/modeler/tools/node/node_modules/react",

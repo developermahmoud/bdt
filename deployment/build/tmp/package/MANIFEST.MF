@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bundle-Name: Al_Bawani_BDT_main
+Bundle-Name: BDT
 Bundle-SymbolicName: project
 Service-Component: OSGI-INF/component.xml
 
