@@ -845,3 +845,1057 @@ INSERT INTO "system$queuedtask" VALUES(7881299349559911,6862,'Idle','59651013-f9
 INSERT INTO "system$processedqueuetask" VALUES(11258999070089091,6854,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:09:43.552000','2024-08-07 09:14:43.413000','2024-08-07 09:14:43.966000','2024-08-07 09:14:43.971000',5,0,NULL,'ClusterManagement-UnblockUsers',NULL)
 DELETE FROM "system$queuedtask" WHERE "id"=7881299349558794
 COMMIT
+/*C5*/DELETE FROM "system$queuedtask" WHERE "id"=7881299349558934
+INSERT INTO "system$queuedtask" VALUES(7881299349558934,6855,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:11:20.318000','2024-08-07 09:16:19.413000','2024-08-07 09:16:19.690000',0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+COMMIT
+/*C11*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6864
+INSERT INTO "system$queuedtask" VALUES(7881299349560001,6863,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]',NULL,NULL,'2024-08-07 09:16:19.693000','2024-08-07 09:21:19.413000',NULL,0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070089243,6855,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:11:20.318000','2024-08-07 09:16:19.413000','2024-08-07 09:16:19.690000','2024-08-07 09:16:19.696000',6,0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349558934
+COMMIT
+/*C5*/DELETE FROM "system$queuedtask" WHERE "id"=7881299349559110
+INSERT INTO "system$queuedtask" VALUES(7881299349559110,6856,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:13:00.121000','2024-08-07 09:17:59.413000','2024-08-07 09:18:00.410000',0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+COMMIT
+ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6865
+INSERT INTO "system$queuedtask" VALUES(7881299349560149,6864,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]',NULL,NULL,'2024-08-07 09:18:00.415000','2024-08-07 09:22:59.413000',NULL,0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070089460,6856,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:13:00.121000','2024-08-07 09:17:59.413000','2024-08-07 09:18:00.410000','2024-08-07 09:18:00.416000',6,0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349559110
+COMMIT
+/*C11*/DELETE FROM "system$session" WHERE "id"=11540474046161079
+INSERT INTO "system$session" VALUES(11540474046161079,'5d5729d2-2b37-4dca-a768-0395d9a44b68','150ddc3c-7efa-4dd5-a05f-8d0ec22f2afa','2024-08-07 09:18:01.683000',FALSE,'6044d11f-b671-4576-862b-53b75de0a12c',NULL,'2024-08-07 08:44:39.514000')
+COMMIT
+/*C7*/DISCONNECT
+/*C2*/DISCONNECT
+/*C11*/DELETE FROM "system$xasinstance" WHERE "id"=1407374884628669
+INSERT INTO "system$xasinstance" VALUES(1407374884628669,'f45a3010-6324-4fa4-94b3-a12199d4d619','2024-08-07 09:19:39.431000',NULL,NULL,NULL,'2024-08-07 08:44:37.629000')
+COMMIT
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349559444
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349559577
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349559196
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349559409
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349559689
+INSERT INTO "system$queuedtask" VALUES(7881299349559444,6857,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:14:39.924000','2024-08-07 09:19:39.412000','2024-08-07 09:19:40.132000',0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349559577,6858,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:14:39.924000','2024-08-07 09:19:39.413000','2024-08-07 09:19:40.132000',0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349559196,6859,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:14:39.924000','2024-08-07 09:19:39.413000','2024-08-07 09:19:40.133000',0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349559409,6860,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:14:39.924000','2024-08-07 09:19:39.413000','2024-08-07 09:19:40.133000',0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349559689,6861,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:14:39.925000','2024-08-07 09:19:39.413000','2024-08-07 09:19:40.133000',0,NULL,'ClusterManagement-CleanupSessions',NULL)
+COMMIT
+ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6870
+/*C6*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6870
+/*C5*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6870
+/*C10*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6870
+/*C5*/INSERT INTO "system$queuedtask" VALUES(7881299349560752,6869,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]',NULL,NULL,'2024-08-07 09:19:40.135000','2024-08-07 09:24:39.413000',NULL,0,NULL,'ClusterManagement-CleanupSessions',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070089958,6861,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:14:39.925000','2024-08-07 09:19:39.413000','2024-08-07 09:19:40.133000','2024-08-07 09:19:40.136000',3,0,NULL,'ClusterManagement-CleanupSessions',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349559689
+COMMIT
+/*C4*/INSERT INTO "system$queuedtask" VALUES(7881299349560560,6866,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]',NULL,NULL,'2024-08-07 09:19:40.135000','2024-08-07 09:24:39.413000',NULL,0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070089846,6858,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:14:39.924000','2024-08-07 09:19:39.413000','2024-08-07 09:19:40.132000','2024-08-07 09:19:40.136000',4,0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349559577
+COMMIT
+/*C11*/INSERT INTO "system$queuedtask" VALUES(7881299349560592,6865,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]',NULL,NULL,'2024-08-07 09:19:40.135000','2024-08-07 09:24:39.412000',NULL,0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070090069,6857,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:14:39.924000','2024-08-07 09:19:39.412000','2024-08-07 09:19:40.132000','2024-08-07 09:19:40.136000',4,0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349559444
+COMMIT
+/*C10*/INSERT INTO "system$queuedtask" VALUES(7881299349560307,6868,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]',NULL,NULL,'2024-08-07 09:19:40.135000','2024-08-07 09:24:39.413000',NULL,0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070089498,6859,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:14:39.924000','2024-08-07 09:19:39.413000','2024-08-07 09:19:40.133000','2024-08-07 09:19:40.136000',3,0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349559196
+COMMIT
+/*C6*/INSERT INTO "system$queuedtask" VALUES(7881299349560320,6867,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]',NULL,NULL,'2024-08-07 09:19:40.135000','2024-08-07 09:24:39.413000',NULL,0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070089635,6860,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:14:39.924000','2024-08-07 09:19:39.413000','2024-08-07 09:19:40.133000','2024-08-07 09:19:40.136000',3,0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349559409
+COMMIT
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349559911
+INSERT INTO "system$queuedtask" VALUES(7881299349559911,6862,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:14:43.969000','2024-08-07 09:19:43.413000','2024-08-07 09:19:44.181000',0,NULL,'ClusterManagement-UnblockUsers',NULL)
+COMMIT
+ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6871
+INSERT INTO "system$queuedtask" VALUES(7881299349560870,6870,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]',NULL,NULL,'2024-08-07 09:19:44.183000','2024-08-07 09:24:43.413000',NULL,0,NULL,'ClusterManagement-UnblockUsers',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070090217,6862,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:14:43.969000','2024-08-07 09:19:43.413000','2024-08-07 09:19:44.181000','2024-08-07 09:19:44.184000',3,0,NULL,'ClusterManagement-UnblockUsers',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349559911
+COMMIT
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349560001
+INSERT INTO "system$queuedtask" VALUES(7881299349560001,6863,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:16:19.693000','2024-08-07 09:21:19.413000','2024-08-07 09:21:19.739000',0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+COMMIT
+/*C10*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6872
+INSERT INTO "system$queuedtask" VALUES(7881299349561061,6871,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]',NULL,NULL,'2024-08-07 09:21:19.741000','2024-08-07 09:26:19.413000',NULL,0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070090249,6863,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:16:19.693000','2024-08-07 09:21:19.413000','2024-08-07 09:21:19.739000','2024-08-07 09:21:19.742000',3,0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349560001
+COMMIT
+DELETE FROM "system$session" WHERE "id"=11540474046161079
+INSERT INTO "system$session" VALUES(11540474046161079,'5d5729d2-2b37-4dca-a768-0395d9a44b68','150ddc3c-7efa-4dd5-a05f-8d0ec22f2afa','2024-08-07 09:18:01.683000',FALSE,'6044d11f-b671-4576-862b-53b75de0a12c',NULL,'2024-08-07 08:44:39.514000')
+COMMIT
+DELETE FROM "system$session" WHERE "id"=11540474046161079
+INSERT INTO "system$session" VALUES(11540474046161079,'5d5729d2-2b37-4dca-a768-0395d9a44b68','150ddc3c-7efa-4dd5-a05f-8d0ec22f2afa','2024-08-07 09:18:01.683000',FALSE,'6044d11f-b671-4576-862b-53b75de0a12c',NULL,'2024-08-07 08:44:39.514000')
+COMMIT
+/*C4*/ALTER SEQUENCE PUBLIC."system$filedocument_fileid_mxseq" RESTART WITH 36
+/*C13*/SET SCHEMA PUBLIC
+INSERT INTO "system$filedocument" VALUES(16044073672674564,35,NULL,FALSE,NULL,FALSE,-1,0,NULL,'2024-08-07 09:21:46.900000','2024-08-07 09:21:55.761000','Main.Comment',844424931168910,844424931168910)
+INSERT INTO "main$comment" VALUES(16044073672674564,'A new comment ')
+INSERT INTO "main$comment_lead" VALUES(16044073672674564,15199648742759987)
+COMMIT
+/*C12*/DELETE FROM "system$session" WHERE "id"=11540474046161079
+INSERT INTO "system$session" VALUES(11540474046161079,'5d5729d2-2b37-4dca-a768-0395d9a44b68','150ddc3c-7efa-4dd5-a05f-8d0ec22f2afa','2024-08-07 09:18:01.683000',FALSE,'6044d11f-b671-4576-862b-53b75de0a12c',NULL,'2024-08-07 08:44:39.514000')
+COMMIT
+DELETE FROM "system$session" WHERE "id"=11540474046161079
+INSERT INTO "system$session" VALUES(11540474046161079,'5d5729d2-2b37-4dca-a768-0395d9a44b68','150ddc3c-7efa-4dd5-a05f-8d0ec22f2afa','2024-08-07 09:18:01.683000',FALSE,'6044d11f-b671-4576-862b-53b75de0a12c',NULL,'2024-08-07 08:44:39.514000')
+COMMIT
+/*C6*/DELETE FROM "system$session" WHERE "id"=11540474046161079
+INSERT INTO "system$session" VALUES(11540474046161079,'5d5729d2-2b37-4dca-a768-0395d9a44b68','150ddc3c-7efa-4dd5-a05f-8d0ec22f2afa','2024-08-07 09:22:36.385000',FALSE,'6044d11f-b671-4576-862b-53b75de0a12c',NULL,'2024-08-07 08:44:39.514000')
+COMMIT
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349560149
+INSERT INTO "system$queuedtask" VALUES(7881299349560149,6864,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:18:00.415000','2024-08-07 09:22:59.413000','2024-08-07 09:22:59.559000',0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+COMMIT
+/*C11*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6873
+INSERT INTO "system$queuedtask" VALUES(7881299349561091,6872,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]',NULL,NULL,'2024-08-07 09:22:59.561000','2024-08-07 09:27:59.413000',NULL,0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070090469,6864,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:18:00.415000','2024-08-07 09:22:59.413000','2024-08-07 09:22:59.559000','2024-08-07 09:22:59.563000',4,0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349560149
+COMMIT
+DELETE FROM "main$comment" WHERE "id"=16044073672674564
+DELETE FROM "system$filedocument" WHERE "id"=16044073672674564
+DELETE FROM "main$comment_lead" WHERE "main$commentid"=16044073672674564 AND "main$leadid"=15199648742759987
+COMMIT
+/*C12*/DELETE FROM "system$filedocument" WHERE "id"=16044073672674484
+INSERT INTO "system$filedocument" VALUES(16044073672674484,34,'Screenshot 2024-06-30 154546.png',FALSE,NULL,TRUE,553318,0,'a50abfb1-e5c0-4b5d-941a-b871c462f76b','2024-08-07 09:06:49.779000','2024-08-07 09:23:17.198000','Main.Comment',844424931168910,844424931168910)
+DELETE FROM "main$comment" WHERE "id"=16044073672674484
+INSERT INTO "main$comment" VALUES(16044073672674484,'Checking the edit button')
+COMMIT
+/*C11*/DELETE FROM "mendixsystem$entityidentifier" WHERE "id"='3ef1ea23-ae22-4516-969e-0c84d5d66702'
+INSERT INTO "mendixsystem$entityidentifier" VALUES('3ef1ea23-ae22-4516-969e-0c84d5d66702',64,1301)
+COMMIT
+/*C5*/DELETE FROM "system$session" WHERE "id"=11540474046161079
+INSERT INTO "system$session" VALUES(11540474046161079,'5d5729d2-2b37-4dca-a768-0395d9a44b68','150ddc3c-7efa-4dd5-a05f-8d0ec22f2afa','2024-08-07 09:23:27.488000',FALSE,'6044d11f-b671-4576-862b-53b75de0a12c',NULL,'2024-08-07 08:44:39.514000')
+COMMIT
+/*C6*/DELETE FROM "system$xasinstance" WHERE "id"=1407374884628669
+INSERT INTO "system$xasinstance" VALUES(1407374884628669,'f45a3010-6324-4fa4-94b3-a12199d4d619','2024-08-07 09:24:39.433000',NULL,NULL,NULL,'2024-08-07 08:44:37.629000')
+COMMIT
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349560592
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349560560
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349560320
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349560307
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349560752
+INSERT INTO "system$queuedtask" VALUES(7881299349560592,6865,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:19:40.135000','2024-08-07 09:24:39.412000','2024-08-07 09:24:40.380000',0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349560560,6866,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:19:40.135000','2024-08-07 09:24:39.413000','2024-08-07 09:24:40.381000',0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349560320,6867,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:19:40.135000','2024-08-07 09:24:39.413000','2024-08-07 09:24:40.381000',0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349560307,6868,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:19:40.135000','2024-08-07 09:24:39.413000','2024-08-07 09:24:40.381000',0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349560752,6869,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:19:40.135000','2024-08-07 09:24:39.413000','2024-08-07 09:24:40.382000',0,NULL,'ClusterManagement-CleanupSessions',NULL)
+COMMIT
+/*C11*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6878
+/*C6*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6878
+/*C5*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6878
+/*C4*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6878
+/*C13*/INSERT INTO "system$queuedtask" VALUES(7881299349561280,6875,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]',NULL,NULL,'2024-08-07 09:24:40.383000','2024-08-07 09:29:39.413000',NULL,0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070090515,6867,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:19:40.135000','2024-08-07 09:24:39.413000','2024-08-07 09:24:40.381000','2024-08-07 09:24:40.385000',4,0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349560320
+COMMIT
+/*C11*/INSERT INTO "system$queuedtask" VALUES(7881299349561595,6873,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]',NULL,NULL,'2024-08-07 09:24:40.383000','2024-08-07 09:29:39.413000',NULL,0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070091057,6868,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:19:40.135000','2024-08-07 09:24:39.413000','2024-08-07 09:24:40.381000','2024-08-07 09:24:40.385000',4,0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349560307
+COMMIT
+/*C6*/INSERT INTO "system$queuedtask" VALUES(7881299349561671,6876,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]',NULL,NULL,'2024-08-07 09:24:40.383000','2024-08-07 09:29:39.413000',NULL,0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070090695,6866,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:19:40.135000','2024-08-07 09:24:39.413000','2024-08-07 09:24:40.381000','2024-08-07 09:24:40.385000',4,0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349560560
+COMMIT
+/*C4*/INSERT INTO "system$queuedtask" VALUES(7881299349561842,6877,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]',NULL,NULL,'2024-08-07 09:24:40.384000','2024-08-07 09:29:39.413000',NULL,0,NULL,'ClusterManagement-CleanupSessions',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070090950,6869,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:19:40.135000','2024-08-07 09:24:39.413000','2024-08-07 09:24:40.382000','2024-08-07 09:24:40.385000',3,0,NULL,'ClusterManagement-CleanupSessions',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349560752
+COMMIT
+/*C5*/INSERT INTO "system$queuedtask" VALUES(7881299349561463,6874,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]',NULL,NULL,'2024-08-07 09:24:40.383000','2024-08-07 09:29:39.412000',NULL,0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070090769,6865,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:19:40.135000','2024-08-07 09:24:39.412000','2024-08-07 09:24:40.380000','2024-08-07 09:24:40.385000',5,0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349560592
+COMMIT
+/*C4*/DELETE FROM "system$session" WHERE "id"=11540474046161079
+INSERT INTO "system$session" VALUES(11540474046161079,'5d5729d2-2b37-4dca-a768-0395d9a44b68','150ddc3c-7efa-4dd5-a05f-8d0ec22f2afa','2024-08-07 09:23:27.488000',FALSE,'6044d11f-b671-4576-862b-53b75de0a12c',NULL,'2024-08-07 08:44:39.514000')
+COMMIT
+DELETE FROM "system$session" WHERE "id"=11540474046161079
+INSERT INTO "system$session" VALUES(11540474046161079,'5d5729d2-2b37-4dca-a768-0395d9a44b68','150ddc3c-7efa-4dd5-a05f-8d0ec22f2afa','2024-08-07 09:23:27.488000',FALSE,'6044d11f-b671-4576-862b-53b75de0a12c',NULL,'2024-08-07 08:44:39.514000')
+COMMIT
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349560870
+INSERT INTO "system$queuedtask" VALUES(7881299349560870,6870,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:19:44.183000','2024-08-07 09:24:43.413000','2024-08-07 09:24:44.415000',0,NULL,'ClusterManagement-UnblockUsers',NULL)
+COMMIT
+/*C15*/SET SCHEMA PUBLIC
+ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6879
+/*C12*/INSERT INTO "system$queuedtask" VALUES(7881299349561960,6878,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]',NULL,NULL,'2024-08-07 09:24:44.417000','2024-08-07 09:29:43.413000',NULL,0,NULL,'ClusterManagement-UnblockUsers',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070091214,6870,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:19:44.183000','2024-08-07 09:24:43.413000','2024-08-07 09:24:44.415000','2024-08-07 09:24:44.419000',4,0,NULL,'ClusterManagement-UnblockUsers',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349560870
+COMMIT
+/*C11*/DELETE FROM "system$session" WHERE "id"=11540474046161079
+INSERT INTO "system$session" VALUES(11540474046161079,'5d5729d2-2b37-4dca-a768-0395d9a44b68','150ddc3c-7efa-4dd5-a05f-8d0ec22f2afa','2024-08-07 09:24:44.415000',FALSE,'6044d11f-b671-4576-862b-53b75de0a12c',NULL,'2024-08-07 08:44:39.514000')
+COMMIT
+/*C15*/DELETE FROM "system$queuedtask" WHERE "id"=7881299349561061
+INSERT INTO "system$queuedtask" VALUES(7881299349561061,6871,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:21:19.741000','2024-08-07 09:26:19.413000','2024-08-07 09:26:20.184000',0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+COMMIT
+/*C11*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6880
+INSERT INTO "system$queuedtask" VALUES(7881299349562111,6879,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]',NULL,NULL,'2024-08-07 09:26:20.187000','2024-08-07 09:31:19.413000',NULL,0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070091385,6871,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:21:19.741000','2024-08-07 09:26:19.413000','2024-08-07 09:26:20.184000','2024-08-07 09:26:20.188000',4,0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349561061
+COMMIT
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349561091
+INSERT INTO "system$queuedtask" VALUES(7881299349561091,6872,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:22:59.561000','2024-08-07 09:27:59.413000','2024-08-07 09:27:59.901000',0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+COMMIT
+ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6881
+INSERT INTO "system$queuedtask" VALUES(7881299349562132,6880,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]',NULL,NULL,'2024-08-07 09:27:59.903000','2024-08-07 09:32:59.413000',NULL,0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070091444,6872,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:22:59.561000','2024-08-07 09:27:59.413000','2024-08-07 09:27:59.901000','2024-08-07 09:27:59.904000',3,0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349561091
+COMMIT
+/*C15*/DELETE FROM "system$xasinstance" WHERE "id"=1407374884628669
+INSERT INTO "system$xasinstance" VALUES(1407374884628669,'f45a3010-6324-4fa4-94b3-a12199d4d619','2024-08-07 09:29:39.443000',NULL,NULL,NULL,'2024-08-07 08:44:37.629000')
+COMMIT
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349561595
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349561463
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349561280
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349561671
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349561842
+INSERT INTO "system$queuedtask" VALUES(7881299349561595,6873,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:24:40.383000','2024-08-07 09:29:39.413000','2024-08-07 09:29:39.537000',0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349561463,6874,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:24:40.383000','2024-08-07 09:29:39.412000','2024-08-07 09:29:39.538000',0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349561280,6875,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:24:40.383000','2024-08-07 09:29:39.413000','2024-08-07 09:29:39.538000',0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349561671,6876,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:24:40.383000','2024-08-07 09:29:39.413000','2024-08-07 09:29:39.538000',0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349561842,6877,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:24:40.384000','2024-08-07 09:29:39.413000','2024-08-07 09:29:39.538000',0,NULL,'ClusterManagement-CleanupSessions',NULL)
+COMMIT
+ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6886
+/*C12*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6886
+/*C11*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6886
+/*C6*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6886
+INSERT INTO "system$queuedtask" VALUES(7881299349562693,6882,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]',NULL,NULL,'2024-08-07 09:29:39.540000','2024-08-07 09:34:39.413000',NULL,0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070091617,6875,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:24:40.383000','2024-08-07 09:29:39.413000','2024-08-07 09:29:39.538000','2024-08-07 09:29:39.541000',3,0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349561280
+COMMIT
+/*C15*/INSERT INTO "system$queuedtask" VALUES(7881299349562825,6885,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]',NULL,NULL,'2024-08-07 09:29:39.540000','2024-08-07 09:34:39.413000',NULL,0,NULL,'ClusterManagement-CleanupSessions',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070091657,6877,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:24:40.384000','2024-08-07 09:29:39.413000','2024-08-07 09:29:39.538000','2024-08-07 09:29:39.541000',3,0,NULL,'ClusterManagement-CleanupSessions',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349561842
+COMMIT
+/*C12*/INSERT INTO "system$queuedtask" VALUES(7881299349562275,6884,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]',NULL,NULL,'2024-08-07 09:29:39.540000','2024-08-07 09:34:39.412000',NULL,0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070091861,6874,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:24:40.383000','2024-08-07 09:29:39.412000','2024-08-07 09:29:39.538000','2024-08-07 09:29:39.541000',3,0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349561463
+COMMIT
+/*C11*/INSERT INTO "system$queuedtask" VALUES(7881299349562387,6881,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]',NULL,NULL,'2024-08-07 09:29:39.540000','2024-08-07 09:34:39.413000',NULL,0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070091924,6876,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:24:40.383000','2024-08-07 09:29:39.413000','2024-08-07 09:29:39.538000','2024-08-07 09:29:39.541000',3,0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349561671
+COMMIT
+/*C14*/SET SCHEMA PUBLIC
+INSERT INTO "system$queuedtask" VALUES(7881299349562618,6883,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]',NULL,NULL,'2024-08-07 09:29:39.540000','2024-08-07 09:34:39.413000',NULL,0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070092046,6873,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:24:40.383000','2024-08-07 09:29:39.413000','2024-08-07 09:29:39.537000','2024-08-07 09:29:39.541000',4,0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349561595
+COMMIT
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349561960
+INSERT INTO "system$queuedtask" VALUES(7881299349561960,6878,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:24:44.417000','2024-08-07 09:29:43.413000','2024-08-07 09:29:43.576000',0,NULL,'ClusterManagement-UnblockUsers',NULL)
+COMMIT
+ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6887
+INSERT INTO "system$queuedtask" VALUES(7881299349563005,6886,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]',NULL,NULL,'2024-08-07 09:29:43.580000','2024-08-07 09:34:43.413000',NULL,0,NULL,'ClusterManagement-UnblockUsers',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070092198,6878,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:24:44.417000','2024-08-07 09:29:43.413000','2024-08-07 09:29:43.576000','2024-08-07 09:29:43.581000',5,0,NULL,'ClusterManagement-UnblockUsers',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349561960
+COMMIT
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349562111
+INSERT INTO "system$queuedtask" VALUES(7881299349562111,6879,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:26:20.187000','2024-08-07 09:31:19.413000','2024-08-07 09:31:20.243000',0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+COMMIT
+ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6888
+INSERT INTO "system$queuedtask" VALUES(7881299349563107,6887,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]',NULL,NULL,'2024-08-07 09:31:20.245000','2024-08-07 09:36:19.413000',NULL,0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070092328,6879,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:26:20.187000','2024-08-07 09:31:19.413000','2024-08-07 09:31:20.243000','2024-08-07 09:31:20.245000',2,0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349562111
+COMMIT
+/*C11*/DELETE FROM "system$queuedtask" WHERE "id"=7881299349562132
+INSERT INTO "system$queuedtask" VALUES(7881299349562132,6880,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:27:59.903000','2024-08-07 09:32:59.413000','2024-08-07 09:32:59.996000',0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+COMMIT
+ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6889
+INSERT INTO "system$queuedtask" VALUES(7881299349563256,6888,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]',NULL,NULL,'2024-08-07 09:32:59.999000','2024-08-07 09:37:59.413000',NULL,0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070092457,6880,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:27:59.903000','2024-08-07 09:32:59.413000','2024-08-07 09:32:59.996000','2024-08-07 09:32:59.999000',3,0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349562132
+COMMIT
+DELETE FROM "system$session" WHERE "id"=11540474046161079
+INSERT INTO "system$session" VALUES(11540474046161079,'5d5729d2-2b37-4dca-a768-0395d9a44b68','150ddc3c-7efa-4dd5-a05f-8d0ec22f2afa','2024-08-07 09:33:04.706000',FALSE,'6044d11f-b671-4576-862b-53b75de0a12c',NULL,'2024-08-07 08:44:39.514000')
+COMMIT
+/*C10*/DISCONNECT
+/*C11*/DELETE FROM "system$xasinstance" WHERE "id"=1407374884628669
+INSERT INTO "system$xasinstance" VALUES(1407374884628669,'f45a3010-6324-4fa4-94b3-a12199d4d619','2024-08-07 09:34:39.458000',NULL,NULL,NULL,'2024-08-07 08:44:37.629000')
+COMMIT
+/*C14*/DELETE FROM "system$queuedtask" WHERE "id"=7881299349562387
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349562693
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349562618
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349562275
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349562825
+INSERT INTO "system$queuedtask" VALUES(7881299349562387,6881,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:29:39.540000','2024-08-07 09:34:39.413000','2024-08-07 09:34:39.800000',0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349562693,6882,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:29:39.540000','2024-08-07 09:34:39.413000','2024-08-07 09:34:39.801000',0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349562618,6883,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:29:39.540000','2024-08-07 09:34:39.413000','2024-08-07 09:34:39.801000',0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349562275,6884,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:29:39.540000','2024-08-07 09:34:39.412000','2024-08-07 09:34:39.801000',0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349562825,6885,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:29:39.540000','2024-08-07 09:34:39.413000','2024-08-07 09:34:39.801000',0,NULL,'ClusterManagement-CleanupSessions',NULL)
+COMMIT
+/*C15*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6894
+/*C12*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6894
+/*C6*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6894
+/*C14*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6894
+/*C11*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6894
+/*C15*/INSERT INTO "system$queuedtask" VALUES(7881299349563757,6892,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]',NULL,NULL,'2024-08-07 09:34:39.803000','2024-08-07 09:39:39.413000',NULL,0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070092680,6881,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:29:39.540000','2024-08-07 09:34:39.413000','2024-08-07 09:34:39.800000','2024-08-07 09:34:39.804000',4,0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349562387
+COMMIT
+/*C14*/INSERT INTO "system$queuedtask" VALUES(7881299349563578,6891,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]',NULL,NULL,'2024-08-07 09:34:39.803000','2024-08-07 09:39:39.413000',NULL,0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070093040,6883,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:29:39.540000','2024-08-07 09:34:39.413000','2024-08-07 09:34:39.801000','2024-08-07 09:34:39.804000',3,0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349562618
+COMMIT
+/*C12*/INSERT INTO "system$queuedtask" VALUES(7881299349563836,6890,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]',NULL,NULL,'2024-08-07 09:34:39.803000','2024-08-07 09:39:39.413000',NULL,0,NULL,'ClusterManagement-CleanupSessions',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070092889,6885,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:29:39.540000','2024-08-07 09:34:39.413000','2024-08-07 09:34:39.801000','2024-08-07 09:34:39.804000',3,0,NULL,'ClusterManagement-CleanupSessions',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349562825
+COMMIT
+/*C6*/INSERT INTO "system$queuedtask" VALUES(7881299349563286,6893,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]',NULL,NULL,'2024-08-07 09:34:39.803000','2024-08-07 09:39:39.413000',NULL,0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070092636,6882,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:29:39.540000','2024-08-07 09:34:39.413000','2024-08-07 09:34:39.801000','2024-08-07 09:34:39.804000',3,0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349562693
+COMMIT
+/*C11*/INSERT INTO "system$queuedtask" VALUES(7881299349563472,6889,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]',NULL,NULL,'2024-08-07 09:34:39.803000','2024-08-07 09:39:39.412000',NULL,0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070093079,6884,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:29:39.540000','2024-08-07 09:34:39.412000','2024-08-07 09:34:39.801000','2024-08-07 09:34:39.804000',3,0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349562275
+COMMIT
+/*C6*/DELETE FROM "system$queuedtask" WHERE "id"=7881299349563005
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349563107
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349563256
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349563472
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349563836
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349563578
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349563757
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349563286
+INSERT INTO "system$queuedtask" VALUES(7881299349563005,6886,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:29:43.580000','2024-08-07 09:34:43.413000','2024-08-07 10:06:28.881000',0,NULL,'ClusterManagement-UnblockUsers',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349563107,6887,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:31:20.245000','2024-08-07 09:36:19.413000','2024-08-07 10:06:28.883000',0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349563256,6888,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:32:59.999000','2024-08-07 09:37:59.413000','2024-08-07 10:06:28.884000',0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349563472,6889,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:34:39.803000','2024-08-07 09:39:39.412000','2024-08-07 10:06:28.884000',0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349563836,6890,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:34:39.803000','2024-08-07 09:39:39.413000','2024-08-07 10:06:28.885000',0,NULL,'ClusterManagement-CleanupSessions',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349563578,6891,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:34:39.803000','2024-08-07 09:39:39.413000','2024-08-07 10:06:28.886000',0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349563757,6892,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:34:39.803000','2024-08-07 09:39:39.413000','2024-08-07 10:06:28.886000',0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349563286,6893,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:34:39.803000','2024-08-07 09:39:39.413000','2024-08-07 10:06:28.887000',0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+COMMIT
+/*C14*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6900
+/*C11*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6900
+/*C12*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6901
+/*C14*/INSERT INTO "system$queuedtask" VALUES(7881299349564282,6895,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]',NULL,NULL,'2024-08-07 10:06:28.890000','2024-08-07 09:44:39.413000',NULL,0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070093472,6891,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:34:39.803000','2024-08-07 09:39:39.413000','2024-08-07 10:06:28.886000','2024-08-07 10:06:28.893000',7,0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349563578
+COMMIT
+/*C6*/INSERT INTO "system$queuedtask" VALUES(7881299349564626,6899,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]',NULL,NULL,'2024-08-07 10:06:28.890000','2024-08-07 09:42:59.413000',NULL,0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070093261,6888,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:32:59.999000','2024-08-07 09:37:59.413000','2024-08-07 10:06:28.884000','2024-08-07 10:06:28.893000',9,0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349563256
+COMMIT
+/*C11*/INSERT INTO "system$queuedtask" VALUES(7881299349564453,6898,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]',NULL,NULL,'2024-08-07 10:06:28.890000','2024-08-07 09:44:39.413000',NULL,0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070093422,6893,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:34:39.803000','2024-08-07 09:39:39.413000','2024-08-07 10:06:28.887000','2024-08-07 10:06:28.893000',6,0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349563286
+COMMIT
+/*C12*/INSERT INTO "system$queuedtask" VALUES(7881299349564370,6896,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]',NULL,NULL,'2024-08-07 10:06:28.890000','2024-08-07 09:44:39.413000',NULL,0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070093573,6892,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:34:39.803000','2024-08-07 09:39:39.413000','2024-08-07 10:06:28.886000','2024-08-07 10:06:28.893000',7,0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349563757
+COMMIT
+/*C15*/INSERT INTO "system$queuedtask" VALUES(7881299349564121,6894,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]',NULL,NULL,'2024-08-07 10:06:28.890000','2024-08-07 09:39:43.413000',NULL,0,NULL,'ClusterManagement-UnblockUsers',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070093759,6886,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:29:43.580000','2024-08-07 09:34:43.413000','2024-08-07 10:06:28.881000','2024-08-07 10:06:28.893000',12,0,NULL,'ClusterManagement-UnblockUsers',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349563005
+COMMIT
+/*C4*/INSERT INTO "system$queuedtask" VALUES(7881299349564675,6900,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]',NULL,NULL,'2024-08-07 10:06:28.892000','2024-08-07 09:44:39.412000',NULL,0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070093890,6889,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:34:39.803000','2024-08-07 09:39:39.412000','2024-08-07 10:06:28.884000','2024-08-07 10:06:28.894000',10,0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349563472
+COMMIT
+/*C6*/INSERT INTO "system$queuedtask" VALUES(7881299349564012,6897,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]',NULL,NULL,'2024-08-07 10:06:28.890000','2024-08-07 09:41:19.413000',NULL,0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070094002,6887,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:31:20.245000','2024-08-07 09:36:19.413000','2024-08-07 10:06:28.883000','2024-08-07 10:06:28.896000',13,0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349563107
+COMMIT
+/*C14*/DELETE FROM "system$queuedtask" WHERE "id"=7881299349564282
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349564453
+INSERT INTO "system$queuedtask" VALUES(7881299349564453,6898,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]',NULL,NULL,'2024-08-07 10:06:28.890000','2024-08-07 09:44:39.413000',NULL,0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349564121
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349564370
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349564012
+INSERT INTO "system$queuedtask" VALUES(7881299349564121,6894,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.890000','2024-08-07 09:39:43.413000','2024-08-07 10:06:28.900000',0,NULL,'ClusterManagement-UnblockUsers',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349564282,6895,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.890000','2024-08-07 09:44:39.413000','2024-08-07 10:06:28.900000',0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349564370,6896,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.890000','2024-08-07 09:44:39.413000','2024-08-07 10:06:28.901000',0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349564012,6897,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.890000','2024-08-07 09:41:19.413000','2024-08-07 10:06:28.902000',0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+COMMIT
+ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6902
+/*C4*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6904
+/*C14*/INSERT INTO "system$queuedtask" VALUES(7881299349564888,6901,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]',NULL,NULL,'2024-08-07 10:06:28.904000','2024-08-07 09:46:19.413000',NULL,0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070094086,6897,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.890000','2024-08-07 09:41:19.413000','2024-08-07 10:06:28.902000','2024-08-07 10:06:28.905000',3,0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349564012
+COMMIT
+/*C6*/DELETE FROM "system$queuedtask" WHERE "id"=7881299349564453
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349564626
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349564675
+INSERT INTO "system$queuedtask" VALUES(7881299349564453,6898,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.890000','2024-08-07 09:44:39.413000','2024-08-07 10:06:28.905000',0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349564626,6899,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.890000','2024-08-07 09:42:59.413000','2024-08-07 10:06:28.907000',0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349564675,6900,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.892000','2024-08-07 09:44:39.412000','2024-08-07 10:06:28.909000',0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+COMMIT
+/*C4*/INSERT INTO "system$queuedtask" VALUES(7881299349564942,6902,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]',NULL,NULL,'2024-08-07 10:06:28.907000','2024-08-07 09:44:43.413000',NULL,0,NULL,'ClusterManagement-UnblockUsers',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070094316,6894,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.890000','2024-08-07 09:39:43.413000','2024-08-07 10:06:28.900000','2024-08-07 10:06:28.909000',9,0,NULL,'ClusterManagement-UnblockUsers',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349564121
+COMMIT
+ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6905
+/*C15*/INSERT INTO "system$queuedtask" VALUES(7881299349565167,6903,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]',NULL,NULL,'2024-08-07 10:06:28.908000','2024-08-07 09:49:39.413000',NULL,0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070094370,6895,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.890000','2024-08-07 09:44:39.413000','2024-08-07 10:06:28.900000','2024-08-07 10:06:28.910000',10,0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349564282
+COMMIT
+/*C14*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6906
+/*C11*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6908
+/*C14*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6908
+/*C12*/INSERT INTO "system$queuedtask" VALUES(7881299349565208,6904,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]',NULL,NULL,'2024-08-07 10:06:28.912000','2024-08-07 09:49:39.413000',NULL,0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070094563,6896,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.890000','2024-08-07 09:44:39.413000','2024-08-07 10:06:28.901000','2024-08-07 10:06:28.914000',13,0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349564370
+COMMIT
+/*C15*/INSERT INTO "system$queuedtask" VALUES(7881299349565340,6905,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]',NULL,NULL,'2024-08-07 10:06:28.913000','2024-08-07 09:49:39.413000',NULL,0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070094698,6898,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.890000','2024-08-07 09:44:39.413000','2024-08-07 10:06:28.905000','2024-08-07 10:06:28.914000',9,0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349564453
+COMMIT
+/*C11*/INSERT INTO "system$queuedtask" VALUES(7881299349565572,6906,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]',NULL,NULL,'2024-08-07 10:06:28.915000','2024-08-07 09:47:59.413000',NULL,0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070094764,6899,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.890000','2024-08-07 09:42:59.413000','2024-08-07 10:06:28.907000','2024-08-07 10:06:28.916000',9,0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349564626
+COMMIT
+/*C4*/DELETE FROM "system$queuedtask" WHERE "id"=7881299349564888
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349564942
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349565167
+INSERT INTO "system$queuedtask" VALUES(7881299349564888,6901,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.904000','2024-08-07 09:46:19.413000','2024-08-07 10:06:28.914000',0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349564942,6902,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.907000','2024-08-07 09:44:43.413000','2024-08-07 10:06:28.915000',0,NULL,'ClusterManagement-UnblockUsers',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349565167,6903,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.908000','2024-08-07 09:49:39.413000','2024-08-07 10:06:28.917000',0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+COMMIT
+/*C14*/INSERT INTO "system$queuedtask" VALUES(7881299349565464,6907,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]',NULL,NULL,'2024-08-07 10:06:28.915000','2024-08-07 09:49:39.412000',NULL,0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070094971,6900,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.892000','2024-08-07 09:44:39.412000','2024-08-07 10:06:28.909000','2024-08-07 10:06:28.917000',8,0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349564675
+COMMIT
+/*C11*/DELETE FROM "system$queuedtask" WHERE "id"=7881299349565208
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349565340
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349565572
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349565464
+INSERT INTO "system$queuedtask" VALUES(7881299349565208,6904,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.912000','2024-08-07 09:49:39.413000','2024-08-07 10:06:28.921000',0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349565340,6905,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.913000','2024-08-07 09:49:39.413000','2024-08-07 10:06:28.923000',0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349565572,6906,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.915000','2024-08-07 09:47:59.413000','2024-08-07 10:06:28.924000',0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349565464,6907,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.915000','2024-08-07 09:49:39.412000','2024-08-07 10:06:28.924000',0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+COMMIT
+/*C4*/DELETE FROM "mendixsystem$entityidentifier" WHERE "id"='c6c131c8-8779-4213-9b26-a64e141f26a8'
+INSERT INTO "mendixsystem$entityidentifier" VALUES('c6c131c8-8779-4213-9b26-a64e141f26a8',28,13126)
+COMMIT
+ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6909
+/*C11*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6910
+/*C14*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6913
+DELETE FROM "mendixsystem$entityidentifier" WHERE "id"='eb5c32a1-85ec-49d1-8bca-ecca779cd539'
+INSERT INTO "mendixsystem$entityidentifier" VALUES('eb5c32a1-85ec-49d1-8bca-ecca779cd539',40,13137)
+COMMIT
+/*C15*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6913
+/*C6*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6914
+/*C11*/INSERT INTO "system$queuedtask" VALUES(7881299349565771,6908,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]',NULL,NULL,'2024-08-07 10:06:28.926000','2024-08-07 09:49:43.413000',NULL,0,NULL,'ClusterManagement-UnblockUsers',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070095041,6902,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.907000','2024-08-07 09:44:43.413000','2024-08-07 10:06:28.915000','2024-08-07 10:06:28.928000',13,0,NULL,'ClusterManagement-UnblockUsers',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349564942
+COMMIT
+/*C12*/INSERT INTO "system$queuedtask" VALUES(7881299349565953,6910,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]',NULL,NULL,'2024-08-07 10:06:28.927000','2024-08-07 09:54:39.413000',NULL,0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070095339,6905,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.913000','2024-08-07 09:49:39.413000','2024-08-07 10:06:28.923000','2024-08-07 10:06:28.928000',5,0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349565340
+COMMIT
+/*C15*/INSERT INTO "system$queuedtask" VALUES(7881299349566124,6911,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]',NULL,NULL,'2024-08-07 10:06:28.927000','2024-08-07 09:54:39.412000',NULL,0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070095433,6907,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.915000','2024-08-07 09:49:39.412000','2024-08-07 10:06:28.924000','2024-08-07 10:06:28.929000',5,0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349565464
+COMMIT
+/*C11*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6915
+/*C14*/INSERT INTO "system$queuedtask" VALUES(7881299349566216,6912,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]',NULL,NULL,'2024-08-07 10:06:28.927000','2024-08-07 09:51:19.413000',NULL,0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070095536,6901,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.904000','2024-08-07 09:46:19.413000','2024-08-07 10:06:28.914000','2024-08-07 10:06:28.929000',15,0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349564888
+COMMIT
+/*C13*/INSERT INTO "system$queuedtask" VALUES(7881299349566426,6913,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]',NULL,NULL,'2024-08-07 10:06:28.928000','2024-08-07 09:52:59.413000',NULL,0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070095739,6906,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.915000','2024-08-07 09:47:59.413000','2024-08-07 10:06:28.924000','2024-08-07 10:06:28.930000',6,0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349565572
+COMMIT
+/*C4*/INSERT INTO "system$queuedtask" VALUES(7881299349565845,6909,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]',NULL,NULL,'2024-08-07 10:06:28.926000','2024-08-07 09:54:39.413000',NULL,0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070095218,6903,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.908000','2024-08-07 09:49:39.413000','2024-08-07 10:06:28.917000','2024-08-07 10:06:28.929000',12,0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349565167
+COMMIT
+/*C15*/INSERT INTO "system$queuedtask" VALUES(7881299349566491,6914,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]',NULL,NULL,'2024-08-07 10:06:28.930000','2024-08-07 09:54:39.413000',NULL,0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070095750,6904,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.912000','2024-08-07 09:49:39.413000','2024-08-07 10:06:28.921000','2024-08-07 10:06:28.931000',10,0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349565208
+COMMIT
+/*C11*/DELETE FROM "system$user" WHERE "id"=844424931168910
+DELETE FROM "system$userroles" WHERE "system$userid"=844424931168910 AND "system$userroleid"=5066549580792098
+DELETE FROM "system$user_language" WHERE "system$userid"=844424931168910 AND "system$languageid"=12947848928690310
+DELETE FROM "system$session_user" WHERE "system$sessionid"=11540474046161079 AND "system$userid"=844424931168910
+COMMIT
+/*C4*/DELETE FROM "system$queuedtask" WHERE "id"=7881299349565771
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349565845
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349565953
+INSERT INTO "system$queuedtask" VALUES(7881299349565771,6908,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.926000','2024-08-07 09:49:43.413000','2024-08-07 10:06:28.934000',0,NULL,'ClusterManagement-UnblockUsers',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349565845,6909,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.926000','2024-08-07 09:54:39.413000','2024-08-07 10:06:28.935000',0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349565953,6910,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.927000','2024-08-07 09:54:39.413000','2024-08-07 10:06:28.935000',0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+COMMIT
+ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6917
+/*C11*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6917
+/*C15*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6918
+/*C4*/INSERT INTO "system$queuedtask" VALUES(7881299349566629,6916,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]',NULL,NULL,'2024-08-07 10:06:28.938000','2024-08-07 09:59:39.413000',NULL,0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070095892,6909,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.926000','2024-08-07 09:54:39.413000','2024-08-07 10:06:28.935000','2024-08-07 10:06:28.940000',5,0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349565845
+COMMIT
+/*C11*/INSERT INTO "system$queuedtask" VALUES(7881299349566800,6915,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]',NULL,NULL,'2024-08-07 10:06:28.938000','2024-08-07 09:59:39.413000',NULL,0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070096067,6910,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.927000','2024-08-07 09:54:39.413000','2024-08-07 10:06:28.935000','2024-08-07 10:06:28.940000',5,0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349565953
+COMMIT
+/*C4*/INSERT INTO "system$queuedtask" VALUES(7881299349566955,6917,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]',NULL,NULL,'2024-08-07 10:06:28.940000','2024-08-07 09:54:43.413000',NULL,0,NULL,'ClusterManagement-UnblockUsers',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070096203,6908,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.926000','2024-08-07 09:49:43.413000','2024-08-07 10:06:28.934000','2024-08-07 10:06:28.943000',9,0,NULL,'ClusterManagement-UnblockUsers',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349565771
+COMMIT
+/*C15*/DELETE FROM "system$session" WHERE "id"=11540474046161079
+COMMIT
+/*C13*/DELETE FROM "system$queuedtask" WHERE "id"=7881299349566124
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349566216
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349566426
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349566491
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349566800
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349566629
+INSERT INTO "system$queuedtask" VALUES(7881299349566124,6911,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.927000','2024-08-07 09:54:39.412000','2024-08-07 10:06:28.945000',0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349566216,6912,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.927000','2024-08-07 09:51:19.413000','2024-08-07 10:06:28.947000',0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349566426,6913,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.928000','2024-08-07 09:52:59.413000','2024-08-07 10:06:28.948000',0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349566491,6914,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.930000','2024-08-07 09:54:39.413000','2024-08-07 10:06:28.949000',0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349566800,6915,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.938000','2024-08-07 09:59:39.413000','2024-08-07 10:06:28.949000',0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349566629,6916,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.938000','2024-08-07 09:59:39.413000','2024-08-07 10:06:28.950000',0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+COMMIT
+/*C12*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6924
+/*C14*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6924
+/*C11*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6924
+/*C13*/DELETE FROM "system$queuedtask" WHERE "id"=7881299349566955
+INSERT INTO "system$queuedtask" VALUES(7881299349566955,6917,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.940000','2024-08-07 09:54:43.413000','2024-08-07 10:06:28.954000',0,NULL,'ClusterManagement-UnblockUsers',NULL)
+COMMIT
+/*C4*/INSERT INTO "system$queuedtask" VALUES(7881299349567101,6918,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]',NULL,NULL,'2024-08-07 10:06:28.953000','2024-08-07 09:56:19.413000',NULL,0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070096374,6912,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.927000','2024-08-07 09:51:19.413000','2024-08-07 10:06:28.947000','2024-08-07 10:06:28.955000',8,0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349566216
+COMMIT
+/*C11*/INSERT INTO "system$queuedtask" VALUES(7881299349567630,6922,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]',NULL,NULL,'2024-08-07 10:06:28.954000','2024-08-07 09:57:59.413000',NULL,0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070096688,6913,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.928000','2024-08-07 09:52:59.413000','2024-08-07 10:06:28.948000','2024-08-07 10:06:28.956000',8,0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349566426
+COMMIT
+/*C12*/INSERT INTO "system$queuedtask" VALUES(7881299349567438,6920,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]',NULL,NULL,'2024-08-07 10:06:28.954000','2024-08-07 09:59:39.412000',NULL,0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070096803,6911,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.927000','2024-08-07 09:54:39.412000','2024-08-07 10:06:28.945000','2024-08-07 10:06:28.956000',11,0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349566124
+COMMIT
+/*C15*/INSERT INTO "system$queuedtask" VALUES(7881299349567306,6919,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]',NULL,NULL,'2024-08-07 10:06:28.954000','2024-08-07 10:04:39.413000',NULL,0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070096505,6915,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.938000','2024-08-07 09:59:39.413000','2024-08-07 10:06:28.949000','2024-08-07 10:06:28.956000',7,0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349566800
+COMMIT
+/*C6*/INSERT INTO "system$queuedtask" VALUES(7881299349567176,6923,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]',NULL,NULL,'2024-08-07 10:06:28.955000','2024-08-07 10:04:39.413000',NULL,0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070096900,6916,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.938000','2024-08-07 09:59:39.413000','2024-08-07 10:06:28.950000','2024-08-07 10:06:28.956000',6,0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349566629
+COMMIT
+/*C14*/INSERT INTO "system$queuedtask" VALUES(7881299349567501,6921,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]',NULL,NULL,'2024-08-07 10:06:28.954000','2024-08-07 09:59:39.413000',NULL,0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070096634,6914,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.930000','2024-08-07 09:54:39.413000','2024-08-07 10:06:28.949000','2024-08-07 10:06:28.956000',7,0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349566491
+COMMIT
+ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6925
+INSERT INTO "system$queuedtask" VALUES(7881299349567792,6924,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]',NULL,NULL,'2024-08-07 10:06:28.959000','2024-08-07 09:59:43.413000',NULL,0,NULL,'ClusterManagement-UnblockUsers',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070097047,6917,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.940000','2024-08-07 09:54:43.413000','2024-08-07 10:06:28.954000','2024-08-07 10:06:28.961000',7,0,NULL,'ClusterManagement-UnblockUsers',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349566955
+COMMIT
+/*C4*/DELETE FROM "system$queuedtask" WHERE "id"=7881299349567101
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349567306
+INSERT INTO "system$queuedtask" VALUES(7881299349567101,6918,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.953000','2024-08-07 09:56:19.413000','2024-08-07 10:06:28.961000',0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349567306,6919,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.954000','2024-08-07 10:04:39.413000','2024-08-07 10:06:28.962000',0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+COMMIT
+/*C13*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6926
+/*C14*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6927
+/*C13*/INSERT INTO "system$queuedtask" VALUES(7881299349567989,6925,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]',NULL,NULL,'2024-08-07 10:06:28.965000','2024-08-07 10:01:19.413000',NULL,0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070097243,6918,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.953000','2024-08-07 09:56:19.413000','2024-08-07 10:06:28.961000','2024-08-07 10:06:28.966000',5,0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349567101
+COMMIT
+/*C14*/INSERT INTO "system$queuedtask" VALUES(7881299349568037,6926,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]',NULL,NULL,'2024-08-07 10:06:28.966000','2024-08-07 10:09:39.413000',NULL,0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070097316,6919,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.954000','2024-08-07 10:04:39.413000','2024-08-07 10:06:28.962000','2024-08-07 10:06:28.967000',5,0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349567306
+COMMIT
+/*C4*/DELETE FROM "system$queuedtask" WHERE "id"=7881299349567438
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349567501
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349567630
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349567176
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349567792
+INSERT INTO "system$queuedtask" VALUES(7881299349567438,6920,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.954000','2024-08-07 09:59:39.412000','2024-08-07 10:06:28.967000',0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349567501,6921,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.954000','2024-08-07 09:59:39.413000','2024-08-07 10:06:28.968000',0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349567630,6922,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.954000','2024-08-07 09:57:59.413000','2024-08-07 10:06:28.969000',0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349567176,6923,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.955000','2024-08-07 10:04:39.413000','2024-08-07 10:06:28.970000',0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349567792,6924,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.959000','2024-08-07 09:59:43.413000','2024-08-07 10:06:28.971000',0,NULL,'ClusterManagement-UnblockUsers',NULL)
+COMMIT
+/*C6*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6931
+/*C4*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6931
+/*C14*/DELETE FROM "system$queuedtask" WHERE "id"=7881299349567989
+INSERT INTO "system$queuedtask" VALUES(7881299349567989,6925,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.965000','2024-08-07 10:01:19.413000','2024-08-07 10:06:28.975000',0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+COMMIT
+/*C6*/INSERT INTO "system$queuedtask" VALUES(7881299349568178,6927,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]',NULL,NULL,'2024-08-07 10:06:28.975000','2024-08-07 10:09:39.413000',NULL,0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070097413,6923,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.955000','2024-08-07 10:04:39.413000','2024-08-07 10:06:28.970000','2024-08-07 10:06:28.976000',6,0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349567176
+COMMIT
+/*C13*/INSERT INTO "system$queuedtask" VALUES(7881299349568282,6928,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]',NULL,NULL,'2024-08-07 10:06:28.975000','2024-08-07 10:04:39.413000',NULL,0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070097767,6921,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.954000','2024-08-07 09:59:39.413000','2024-08-07 10:06:28.968000','2024-08-07 10:06:28.977000',9,0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349567501
+COMMIT
+/*C4*/INSERT INTO "system$queuedtask" VALUES(7881299349568638,6930,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]',NULL,NULL,'2024-08-07 10:06:28.975000','2024-08-07 10:04:39.412000',NULL,0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070097636,6920,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.954000','2024-08-07 09:59:39.412000','2024-08-07 10:06:28.967000','2024-08-07 10:06:28.976000',9,0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+/*C6*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6933
+/*C4*/DELETE FROM "system$queuedtask" WHERE "id"=7881299349567438
+COMMIT
+/*C12*/INSERT INTO "system$queuedtask" VALUES(7881299349568390,6929,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]',NULL,NULL,'2024-08-07 10:06:28.975000','2024-08-07 10:02:59.413000',NULL,0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070097883,6922,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.954000','2024-08-07 09:57:59.413000','2024-08-07 10:06:28.969000','2024-08-07 10:06:28.977000',8,0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349567630
+COMMIT
+/*C4*/INSERT INTO "system$queuedtask" VALUES(7881299349568880,6932,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]',NULL,NULL,'2024-08-07 10:06:28.979000','2024-08-07 10:06:19.413000',NULL,0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070097944,6925,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.965000','2024-08-07 10:01:19.413000','2024-08-07 10:06:28.975000','2024-08-07 10:06:28.979000',4,0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349567989
+COMMIT
+/*C12*/INSERT INTO "system$queuedtask" VALUES(7881299349568716,6931,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]',NULL,NULL,'2024-08-07 10:06:28.977000','2024-08-07 10:04:43.413000',NULL,0,NULL,'ClusterManagement-UnblockUsers',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070098053,6924,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.959000','2024-08-07 09:59:43.413000','2024-08-07 10:06:28.971000','2024-08-07 10:06:28.981000',10,0,NULL,'ClusterManagement-UnblockUsers',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349567792
+COMMIT
+/*C6*/DELETE FROM "system$queuedtask" WHERE "id"=7881299349568282
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349568390
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349568638
+INSERT INTO "system$queuedtask" VALUES(7881299349568282,6928,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.975000','2024-08-07 10:04:39.413000','2024-08-07 10:06:28.983000',0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349568390,6929,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.975000','2024-08-07 10:02:59.413000','2024-08-07 10:06:28.985000',0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349568638,6930,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.975000','2024-08-07 10:04:39.412000','2024-08-07 10:06:28.986000',0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+COMMIT
+/*C4*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6936
+/*C5*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6936
+/*C12*/DELETE FROM "system$queuedtask" WHERE "id"=7881299349568716
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349568880
+INSERT INTO "system$queuedtask" VALUES(7881299349568716,6931,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.977000','2024-08-07 10:04:43.413000','2024-08-07 10:06:28.989000',0,NULL,'ClusterManagement-UnblockUsers',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349568880,6932,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.979000','2024-08-07 10:06:19.413000','2024-08-07 10:06:28.991000',0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+COMMIT
+/*C4*/INSERT INTO "system$queuedtask" VALUES(7881299349568984,6933,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]',NULL,NULL,'2024-08-07 10:06:28.988000','2024-08-07 10:09:39.413000',NULL,0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070098206,6928,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.975000','2024-08-07 10:04:39.413000','2024-08-07 10:06:28.983000','2024-08-07 10:06:28.991000',8,0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349568282
+COMMIT
+/*C5*/INSERT INTO "system$queuedtask" VALUES(7881299349569114,6934,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]',NULL,NULL,'2024-08-07 10:06:28.988000','2024-08-07 10:09:39.412000',NULL,0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070098335,6930,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.975000','2024-08-07 10:04:39.412000','2024-08-07 10:06:28.986000','2024-08-07 10:06:28.991000',5,0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349568638
+COMMIT
+/*C14*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6938
+/*C6*/INSERT INTO "system$queuedtask" VALUES(7881299349569186,6935,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]',NULL,NULL,'2024-08-07 10:06:28.989000','2024-08-07 10:07:59.413000',NULL,0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070098547,6929,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.975000','2024-08-07 10:02:59.413000','2024-08-07 10:06:28.985000','2024-08-07 10:06:28.991000',6,0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349568390
+COMMIT
+/*C4*/INSERT INTO "system$queuedtask" VALUES(7881299349569315,6936,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]',NULL,NULL,'2024-08-07 10:06:28.993000','2024-08-07 10:11:19.413000',NULL,0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070098651,6932,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.979000','2024-08-07 10:06:19.413000','2024-08-07 10:06:28.991000','2024-08-07 10:06:28.994000',3,0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349568880
+COMMIT
+/*C5*/INSERT INTO "system$queuedtask" VALUES(7881299349569489,6937,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]',NULL,NULL,'2024-08-07 10:06:28.994000','2024-08-07 10:09:43.413000',NULL,0,NULL,'ClusterManagement-UnblockUsers',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070098691,6931,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.977000','2024-08-07 10:04:43.413000','2024-08-07 10:06:28.989000','2024-08-07 10:06:28.995000',6,0,NULL,'ClusterManagement-UnblockUsers',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349568716
+COMMIT
+DELETE FROM "system$autocommitentry" WHERE "id"=12384898975345817
+DELETE FROM "system$autocommitentry" WHERE "id"=12384898975345953
+COMMIT
+ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6939
+INSERT INTO "system$queuedtask" VALUES(7881299349569636,6938,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]',NULL,NULL,'2024-08-07 10:06:29.010000','2024-08-07 09:44:39.413000',NULL,0,NULL,'ClusterManagement-CleanupSessions',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070098868,6890,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 09:34:39.803000','2024-08-07 09:39:39.413000','2024-08-07 10:06:28.885000','2024-08-07 10:06:29.012000',127,0,NULL,'ClusterManagement-CleanupSessions',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349563836
+COMMIT
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349569636
+INSERT INTO "system$queuedtask" VALUES(7881299349569636,6938,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:29.010000','2024-08-07 09:44:39.413000','2024-08-07 10:06:29.017000',0,NULL,'ClusterManagement-CleanupSessions',NULL)
+COMMIT
+ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6940
+INSERT INTO "system$queuedtask" VALUES(7881299349569705,6939,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]',NULL,NULL,'2024-08-07 10:06:29.022000','2024-08-07 09:49:39.413000',NULL,0,NULL,'ClusterManagement-CleanupSessions',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070098969,6938,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:29.010000','2024-08-07 09:44:39.413000','2024-08-07 10:06:29.017000','2024-08-07 10:06:29.024000',7,0,NULL,'ClusterManagement-CleanupSessions',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349569636
+COMMIT
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349569705
+INSERT INTO "system$queuedtask" VALUES(7881299349569705,6939,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:29.022000','2024-08-07 09:49:39.413000','2024-08-07 10:06:29.029000',0,NULL,'ClusterManagement-CleanupSessions',NULL)
+COMMIT
+/*C4*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6941
+INSERT INTO "system$queuedtask" VALUES(7881299349569913,6940,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]',NULL,NULL,'2024-08-07 10:06:29.034000','2024-08-07 09:54:39.413000',NULL,0,NULL,'ClusterManagement-CleanupSessions',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070099120,6939,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:29.022000','2024-08-07 09:49:39.413000','2024-08-07 10:06:29.029000','2024-08-07 10:06:29.035000',6,0,NULL,'ClusterManagement-CleanupSessions',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349569705
+COMMIT
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349569913
+INSERT INTO "system$queuedtask" VALUES(7881299349569913,6940,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:29.034000','2024-08-07 09:54:39.413000','2024-08-07 10:06:29.043000',0,NULL,'ClusterManagement-CleanupSessions',NULL)
+COMMIT
+ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6942
+INSERT INTO "system$queuedtask" VALUES(7881299349569938,6941,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]',NULL,NULL,'2024-08-07 10:06:29.047000','2024-08-07 09:59:39.413000',NULL,0,NULL,'ClusterManagement-CleanupSessions',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070099295,6940,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:29.034000','2024-08-07 09:54:39.413000','2024-08-07 10:06:29.043000','2024-08-07 10:06:29.049000',6,0,NULL,'ClusterManagement-CleanupSessions',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349569913
+COMMIT
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349569938
+INSERT INTO "system$queuedtask" VALUES(7881299349569938,6941,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:29.047000','2024-08-07 09:59:39.413000','2024-08-07 10:06:29.054000',0,NULL,'ClusterManagement-CleanupSessions',NULL)
+COMMIT
+/*C5*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6943
+INSERT INTO "system$queuedtask" VALUES(7881299349570107,6942,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]',NULL,NULL,'2024-08-07 10:06:29.061000','2024-08-07 10:04:39.413000',NULL,0,NULL,'ClusterManagement-CleanupSessions',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070099411,6941,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:29.047000','2024-08-07 09:59:39.413000','2024-08-07 10:06:29.054000','2024-08-07 10:06:29.065000',11,0,NULL,'ClusterManagement-CleanupSessions',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349569938
+COMMIT
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349570107
+INSERT INTO "system$queuedtask" VALUES(7881299349570107,6942,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:29.061000','2024-08-07 10:04:39.413000','2024-08-07 10:06:29.071000',0,NULL,'ClusterManagement-CleanupSessions',NULL)
+COMMIT
+ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6944
+INSERT INTO "system$queuedtask" VALUES(7881299349570211,6943,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]',NULL,NULL,'2024-08-07 10:06:29.080000','2024-08-07 10:09:39.413000',NULL,0,NULL,'ClusterManagement-CleanupSessions',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070099540,6942,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:29.061000','2024-08-07 10:04:39.413000','2024-08-07 10:06:29.071000','2024-08-07 10:06:29.082000',11,0,NULL,'ClusterManagement-CleanupSessions',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349570107
+COMMIT
+/*C4*/INSERT INTO "system$user" VALUES(844424931169024,'Anonymous_7f30d93c-5640-4518-b58c-66487c590b91','{BCrypt}$2a$10$TfJ8t0Mz0YehyCVtlNbt5OvqqbGQXNVPMF24H4rk2jCGpeJ1zScAm','2024-08-07 10:06:33.950000',FALSE,NULL,TRUE,0,FALSE,TRUE,'2024-08-07 10:06:33.810000','2024-08-07 10:06:33.810000','System.User',NULL,844424931169024)
+INSERT INTO "system$userroles" VALUES(844424931169024,5066549580792098)
+INSERT INTO "system$user_language" VALUES(844424931169024,12947848928690310)
+COMMIT
+/*C5*/INSERT INTO "system$user" VALUES(844424931169273,'Anonymous_95394547-1ea6-46eb-9333-83cfe71c6c31','{BCrypt}$2a$10$fLIU0FpC7DW./Zfbtb1cMuIVhOUxDRDTu6lSLNcfJsOhOZzhkg/nC','2024-08-07 10:06:33.951000',FALSE,NULL,TRUE,0,FALSE,TRUE,'2024-08-07 10:06:33.810000','2024-08-07 10:06:33.810000','System.User',NULL,844424931169273)
+INSERT INTO "system$userroles" VALUES(844424931169273,5066549580792098)
+INSERT INTO "system$user_language" VALUES(844424931169273,12947848928690310)
+COMMIT
+DELETE FROM "system$user" WHERE "id"=844424931169273
+INSERT INTO "system$user" VALUES(844424931169273,'Anonymous_95394547-1ea6-46eb-9333-83cfe71c6c31','{BCrypt}$2a$10$fLIU0FpC7DW./Zfbtb1cMuIVhOUxDRDTu6lSLNcfJsOhOZzhkg/nC','2024-08-07 10:06:33.959000',FALSE,NULL,TRUE,0,FALSE,TRUE,'2024-08-07 10:06:33.810000','2024-08-07 10:06:33.810000','System.User',NULL,844424931169273)
+COMMIT
+/*C4*/DELETE FROM "system$user" WHERE "id"=844424931169024
+INSERT INTO "system$user" VALUES(844424931169024,'Anonymous_7f30d93c-5640-4518-b58c-66487c590b91','{BCrypt}$2a$10$TfJ8t0Mz0YehyCVtlNbt5OvqqbGQXNVPMF24H4rk2jCGpeJ1zScAm','2024-08-07 10:06:33.959000',FALSE,NULL,TRUE,0,FALSE,TRUE,'2024-08-07 10:06:33.810000','2024-08-07 10:06:33.810000','System.User',NULL,844424931169024)
+COMMIT
+/*C14*/INSERT INTO "system$session" VALUES(11540474046161398,'521db652-95d4-4156-ba89-42dadaaa0984','d59d589a-8852-44f7-be05-3f136bfb09cc','2024-08-07 10:06:33.975000',FALSE,'0daebd51-14cd-4a5a-9566-d968b9cc90c5',NULL,'2024-08-07 10:06:33.975000')
+INSERT INTO "system$session_user" VALUES(11540474046161398,844424931169273)
+COMMIT
+/*C6*/INSERT INTO "system$session" VALUES(11540474046161186,'bee3b569-5dc3-4a59-bb25-e7a6f66c7c61','cda6e2cb-fe17-4d2d-bc0d-4d4d713b9188','2024-08-07 10:06:33.974000',FALSE,'0215419c-0290-47e2-803b-d05704793d8d',NULL,'2024-08-07 10:06:33.974000')
+INSERT INTO "system$session_user" VALUES(11540474046161186,844424931169024)
+COMMIT
+/*C14*/DELETE FROM "system$session" WHERE "id"=11540474046161186
+INSERT INTO "system$session" VALUES(11540474046161186,'bee3b569-5dc3-4a59-bb25-e7a6f66c7c61','cda6e2cb-fe17-4d2d-bc0d-4d4d713b9188','2024-08-07 10:06:33.974000',FALSE,'0215419c-0290-47e2-803b-d05704793d8d',NULL,'2024-08-07 10:06:33.974000')
+COMMIT
+/*C6*/DELETE FROM "system$session" WHERE "id"=11540474046161398
+INSERT INTO "system$session" VALUES(11540474046161398,'521db652-95d4-4156-ba89-42dadaaa0984','d59d589a-8852-44f7-be05-3f136bfb09cc','2024-08-07 10:06:33.975000',FALSE,'0daebd51-14cd-4a5a-9566-d968b9cc90c5',NULL,'2024-08-07 10:06:33.975000')
+COMMIT
+/*C13*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6944
+/*C14*/DELETE FROM "system$session" WHERE "id"=11540474046161398
+INSERT INTO "system$session" VALUES(11540474046161398,'521db652-95d4-4156-ba89-42dadaaa0984','d59d589a-8852-44f7-be05-3f136bfb09cc','2024-08-07 10:06:33.975000',FALSE,'0daebd51-14cd-4a5a-9566-d968b9cc90c5',NULL,'2024-08-07 10:06:33.975000')
+COMMIT
+/*C15*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6944
+/*C4*/DELETE FROM "system$session" WHERE "id"=11540474046161398
+INSERT INTO "system$session" VALUES(11540474046161398,'521db652-95d4-4156-ba89-42dadaaa0984','d59d589a-8852-44f7-be05-3f136bfb09cc','2024-08-07 10:06:33.975000',FALSE,'0daebd51-14cd-4a5a-9566-d968b9cc90c5',NULL,'2024-08-07 10:06:33.975000')
+COMMIT
+/*C14*/DELETE FROM "system$xasinstance" WHERE "id"=1407374884628669
+INSERT INTO "system$xasinstance" VALUES(1407374884628669,'f45a3010-6324-4fa4-94b3-a12199d4d619','2024-08-07 10:07:27.509000',NULL,NULL,NULL,'2024-08-07 08:44:37.629000')
+COMMIT
+DELETE FROM "system$session" WHERE "id"=11540474046161186
+INSERT INTO "system$session" VALUES(11540474046161186,'bee3b569-5dc3-4a59-bb25-e7a6f66c7c61','cda6e2cb-fe17-4d2d-bc0d-4d4d713b9188','2024-08-07 10:06:33.979000',FALSE,'0215419c-0290-47e2-803b-d05704793d8d',NULL,'2024-08-07 10:06:33.974000')
+DELETE FROM "system$session" WHERE "id"=11540474046161398
+INSERT INTO "system$session" VALUES(11540474046161398,'521db652-95d4-4156-ba89-42dadaaa0984','d59d589a-8852-44f7-be05-3f136bfb09cc','2024-08-07 10:07:08.544000',FALSE,'0daebd51-14cd-4a5a-9566-d968b9cc90c5',NULL,'2024-08-07 10:06:33.975000')
+COMMIT
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349569186
+INSERT INTO "system$queuedtask" VALUES(7881299349569186,6935,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.989000','2024-08-07 10:07:59.413000','2024-08-07 10:07:59.775000',0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+COMMIT
+ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6945
+INSERT INTO "system$queuedtask" VALUES(7881299349570343,6944,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]',NULL,NULL,'2024-08-07 10:07:59.782000','2024-08-07 10:12:59.413000',NULL,0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070099593,6935,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.989000','2024-08-07 10:07:59.413000','2024-08-07 10:07:59.775000','2024-08-07 10:07:59.786000',11,0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349569186
+COMMIT
+DELETE FROM "main$lead" WHERE "id"=15199648742759987
+INSERT INTO "main$lead" VALUES(15199648742759987,'Test name','sdsa','dasas',100000000.00000000,30000.00000000,'2024-11-14 21:00:00.000000','2025-02-11 21:00:00.000000','2025-04-30 21:00:00.000000','2026-08-30 21:00:00.000000','2024-08-07 08:51:46.832000','2024-08-07 10:08:32.160000',844424931169273,844424931168910,15,'2024-12-24 21:00:00.000000',61,NULL)
+INSERT INTO "main$priceoverview" VALUES(16888498602729402,'2024-08-07 10:08:32.192000',844424931169273,'Submitted BID Price',30000.00000000,1)
+INSERT INTO "main$priceoverview_lead" VALUES(16888498602729402,15199648742759987)
+COMMIT
+/*C16*/SET SCHEMA PUBLIC
+DELETE FROM "main$lead" WHERE "id"=15199648742759987
+INSERT INTO "main$lead" VALUES(15199648742759987,'Test name','sdsa','dasas',100000000.00000000,23423424.00000000,'2024-11-14 21:00:00.000000','2025-02-11 21:00:00.000000','2025-04-30 21:00:00.000000','2026-08-30 21:00:00.000000','2024-08-07 08:51:46.832000','2024-08-07 10:08:55.746000',844424931169273,844424931168910,15,'2024-12-24 21:00:00.000000',61,NULL)
+INSERT INTO "main$priceoverview" VALUES(16888498602729505,'2024-08-07 10:08:55.754000',844424931169273,'Submitted BID Price',23423424.00000000,1)
+INSERT INTO "main$priceoverview_lead" VALUES(16888498602729505,15199648742759987)
+COMMIT
+/*C6*/DELETE FROM "system$session" WHERE "id"=11540474046161398
+INSERT INTO "system$session" VALUES(11540474046161398,'521db652-95d4-4156-ba89-42dadaaa0984','d59d589a-8852-44f7-be05-3f136bfb09cc','2024-08-07 10:07:08.544000',FALSE,'0daebd51-14cd-4a5a-9566-d968b9cc90c5',NULL,'2024-08-07 10:06:33.975000')
+COMMIT
+/*C17*/SET SCHEMA PUBLIC
+DELETE FROM "system$session" WHERE "id"=11540474046161398
+INSERT INTO "system$session" VALUES(11540474046161398,'521db652-95d4-4156-ba89-42dadaaa0984','d59d589a-8852-44f7-be05-3f136bfb09cc','2024-08-07 10:09:04.176000',FALSE,'0daebd51-14cd-4a5a-9566-d968b9cc90c5',NULL,'2024-08-07 10:06:33.975000')
+COMMIT
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349568037
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349568178
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349568984
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349569114
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349570211
+INSERT INTO "system$queuedtask" VALUES(7881299349568037,6926,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.966000','2024-08-07 10:09:39.413000','2024-08-07 10:09:39.467000',0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349568178,6927,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.975000','2024-08-07 10:09:39.413000','2024-08-07 10:09:39.467000',0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349568984,6933,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.988000','2024-08-07 10:09:39.413000','2024-08-07 10:09:39.467000',0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349569114,6934,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.988000','2024-08-07 10:09:39.412000','2024-08-07 10:09:39.467000',0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349570211,6943,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:29.080000','2024-08-07 10:09:39.413000','2024-08-07 10:09:39.467000',0,NULL,'ClusterManagement-CleanupSessions',NULL)
+COMMIT
+/*C4*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6950
+/*C11*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6950
+/*C13*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6950
+/*C4*/INSERT INTO "system$queuedtask" VALUES(7881299349570485,6945,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]',NULL,NULL,'2024-08-07 10:09:39.475000','2024-08-07 10:14:39.413000',NULL,0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070100083,6926,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.966000','2024-08-07 10:09:39.413000','2024-08-07 10:09:39.467000','2024-08-07 10:09:39.475000',8,0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349568037
+COMMIT
+/*C11*/INSERT INTO "system$queuedtask" VALUES(7881299349570755,6947,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]',NULL,NULL,'2024-08-07 10:09:39.475000','2024-08-07 10:14:39.412000',NULL,0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070099753,6934,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.988000','2024-08-07 10:09:39.412000','2024-08-07 10:09:39.467000','2024-08-07 10:09:39.475000',8,0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349569114
+COMMIT
+/*C17*/INSERT INTO "system$queuedtask" VALUES(7881299349570572,6946,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]',NULL,NULL,'2024-08-07 10:09:39.475000','2024-08-07 10:14:39.413000',NULL,0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070099925,6927,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.975000','2024-08-07 10:09:39.413000','2024-08-07 10:09:39.467000','2024-08-07 10:09:39.475000',8,0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349568178
+COMMIT
+/*C5*/INSERT INTO "system$queuedtask" VALUES(7881299349571003,6949,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]',NULL,NULL,'2024-08-07 10:09:39.475000','2024-08-07 10:14:39.413000',NULL,0,NULL,'ClusterManagement-CleanupSessions',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070100211,6943,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:29.080000','2024-08-07 10:09:39.413000','2024-08-07 10:09:39.467000','2024-08-07 10:09:39.475000',8,0,NULL,'ClusterManagement-CleanupSessions',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349570211
+COMMIT
+/*C13*/INSERT INTO "system$queuedtask" VALUES(7881299349570839,6948,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]',NULL,NULL,'2024-08-07 10:09:39.475000','2024-08-07 10:14:39.413000',NULL,0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070100336,6933,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.988000','2024-08-07 10:09:39.413000','2024-08-07 10:09:39.467000','2024-08-07 10:09:39.475000',8,0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349568984
+COMMIT
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349569489
+INSERT INTO "system$queuedtask" VALUES(7881299349569489,6937,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.994000','2024-08-07 10:09:43.413000','2024-08-07 10:09:43.505000',0,NULL,'ClusterManagement-UnblockUsers',NULL)
+COMMIT
+ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6951
+INSERT INTO "system$queuedtask" VALUES(7881299349571079,6950,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]',NULL,NULL,'2024-08-07 10:09:43.505000','2024-08-07 10:14:43.413000',NULL,0,NULL,'ClusterManagement-UnblockUsers',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070100438,6937,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.994000','2024-08-07 10:09:43.413000','2024-08-07 10:09:43.505000','2024-08-07 10:09:43.513000',8,0,NULL,'ClusterManagement-UnblockUsers',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349569489
+COMMIT
+/*C17*/DELETE FROM "main$lead" WHERE "id"=15199648742759987
+INSERT INTO "main$lead" VALUES(15199648742759987,'Test name','sdsa','dasas',313123123.00000000,23423424.00000000,'2024-11-14 21:00:00.000000','2025-02-11 21:00:00.000000','2025-04-30 21:00:00.000000','2026-08-30 21:00:00.000000','2024-08-07 08:51:46.832000','2024-08-07 10:10:15.307000',844424931169273,844424931168910,15,'2024-12-24 21:00:00.000000',61,NULL)
+INSERT INTO "main$priceoverview" VALUES(16888498602729712,'2024-08-07 10:10:15.323000',844424931169273,'Revenue Forecast',313123123.00000000,1)
+INSERT INTO "main$priceoverview_lead" VALUES(16888498602729712,15199648742759987)
+COMMIT
+/*C4*/DELETE FROM "system$session" WHERE "id"=11540474046161398
+INSERT INTO "system$session" VALUES(11540474046161398,'521db652-95d4-4156-ba89-42dadaaa0984','d59d589a-8852-44f7-be05-3f136bfb09cc','2024-08-07 10:10:15.411000',FALSE,'0daebd51-14cd-4a5a-9566-d968b9cc90c5',NULL,'2024-08-07 10:06:33.975000')
+COMMIT
+/*C17*/DELETE FROM "system$queuedtask" WHERE "id"=7881299349569315
+INSERT INTO "system$queuedtask" VALUES(7881299349569315,6936,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.993000','2024-08-07 10:11:19.413000','2024-08-07 10:11:20.414000',0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+COMMIT
+ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6952
+INSERT INTO "system$queuedtask" VALUES(7881299349571321,6951,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]',NULL,NULL,'2024-08-07 10:11:20.418000','2024-08-07 10:16:19.413000',NULL,0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070100539,6936,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:06:28.993000','2024-08-07 10:11:19.413000','2024-08-07 10:11:20.414000','2024-08-07 10:11:20.420000',6,0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349569315
+COMMIT
+DELETE FROM "system$session" WHERE "id"=11540474046161398
+INSERT INTO "system$session" VALUES(11540474046161398,'521db652-95d4-4156-ba89-42dadaaa0984','d59d589a-8852-44f7-be05-3f136bfb09cc','2024-08-07 10:10:15.411000',FALSE,'0daebd51-14cd-4a5a-9566-d968b9cc90c5',NULL,'2024-08-07 10:06:33.975000')
+COMMIT
+DELETE FROM "system$session" WHERE "id"=11540474046161398
+INSERT INTO "system$session" VALUES(11540474046161398,'521db652-95d4-4156-ba89-42dadaaa0984','d59d589a-8852-44f7-be05-3f136bfb09cc','2024-08-07 10:10:15.411000',FALSE,'0daebd51-14cd-4a5a-9566-d968b9cc90c5',NULL,'2024-08-07 10:06:33.975000')
+COMMIT
+/*C11*/DELETE FROM "system$session" WHERE "id"=11540474046161398
+INSERT INTO "system$session" VALUES(11540474046161398,'521db652-95d4-4156-ba89-42dadaaa0984','d59d589a-8852-44f7-be05-3f136bfb09cc','2024-08-07 10:12:19.827000',FALSE,'0daebd51-14cd-4a5a-9566-d968b9cc90c5',NULL,'2024-08-07 10:06:33.975000')
+COMMIT
+DELETE FROM "system$xasinstance" WHERE "id"=1407374884628669
+INSERT INTO "system$xasinstance" VALUES(1407374884628669,'f45a3010-6324-4fa4-94b3-a12199d4d619','2024-08-07 10:12:27.516000',NULL,NULL,NULL,'2024-08-07 08:44:37.629000')
+COMMIT
+/*C5*/DELETE FROM "system$queuedtask" WHERE "id"=7881299349570343
+INSERT INTO "system$queuedtask" VALUES(7881299349570343,6944,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:07:59.782000','2024-08-07 10:12:59.413000','2024-08-07 10:13:00.230000',0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+COMMIT
+ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6953
+INSERT INTO "system$queuedtask" VALUES(7881299349571398,6952,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]',NULL,NULL,'2024-08-07 10:13:00.230000','2024-08-07 10:17:59.413000',NULL,0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070100678,6944,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:07:59.782000','2024-08-07 10:12:59.413000','2024-08-07 10:13:00.230000','2024-08-07 10:13:00.230000',0,0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349570343
+COMMIT
+/*C4*/DELETE FROM "main$lead" WHERE "id"=15199648742759987
+INSERT INTO "main$lead" VALUES(15199648742759987,'Test name','sdsa','dasas',123123123.00000000,123123123.00000000,'2024-11-14 21:00:00.000000','2025-02-11 21:00:00.000000','2025-04-30 21:00:00.000000','2026-08-30 21:00:00.000000','2024-08-07 08:51:46.832000','2024-08-07 10:13:05.149000',844424931169273,844424931168910,15,'2024-12-24 21:00:00.000000',61,NULL)
+INSERT INTO "main$priceoverview" VALUES(16888498602729761,'2024-08-07 10:13:05.157000',844424931169273,'Revenue Forecast',123123123.00000000,3)
+INSERT INTO "main$priceoverview_lead" VALUES(16888498602729761,15199648742759987)
+INSERT INTO "main$priceoverview" VALUES(16888498602729954,'2024-08-07 10:13:05.164000',844424931169273,'Submitted BID Price',123123123.00000000,4)
+INSERT INTO "main$priceoverview_lead" VALUES(16888498602729954,15199648742759987)
+COMMIT
+/*C15*/DELETE FROM "system$session" WHERE "id"=11540474046161398
+INSERT INTO "system$session" VALUES(11540474046161398,'521db652-95d4-4156-ba89-42dadaaa0984','d59d589a-8852-44f7-be05-3f136bfb09cc','2024-08-07 10:13:05.246000',FALSE,'0daebd51-14cd-4a5a-9566-d968b9cc90c5',NULL,'2024-08-07 10:06:33.975000')
+COMMIT
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349570485
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349570572
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349570755
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349570839
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349571003
+INSERT INTO "system$queuedtask" VALUES(7881299349570485,6945,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:09:39.475000','2024-08-07 10:14:39.413000','2024-08-07 10:14:40.122000',0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349570572,6946,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:09:39.475000','2024-08-07 10:14:39.413000','2024-08-07 10:14:40.123000',0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349570755,6947,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:09:39.475000','2024-08-07 10:14:39.412000','2024-08-07 10:14:40.124000',0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349570839,6948,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:09:39.475000','2024-08-07 10:14:39.413000','2024-08-07 10:14:40.125000',0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349571003,6949,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:09:39.475000','2024-08-07 10:14:39.413000','2024-08-07 10:14:40.126000',0,NULL,'ClusterManagement-CleanupSessions',NULL)
+COMMIT
+ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6958
+/*C5*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6958
+/*C6*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6958
+/*C4*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6958
+/*C5*/INSERT INTO "system$queuedtask" VALUES(7881299349572003,6957,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]',NULL,NULL,'2024-08-07 10:14:40.130000','2024-08-07 10:19:39.413000',NULL,0,NULL,'ClusterManagement-CleanupSessions',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070101091,6949,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:09:39.475000','2024-08-07 10:14:39.413000','2024-08-07 10:14:40.126000','2024-08-07 10:14:40.146000',20,0,NULL,'ClusterManagement-CleanupSessions',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349571003
+COMMIT
+/*C6*/INSERT INTO "system$queuedtask" VALUES(7881299349571868,6956,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]',NULL,NULL,'2024-08-07 10:14:40.130000','2024-08-07 10:19:39.413000',NULL,0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070101221,6948,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:09:39.475000','2024-08-07 10:14:39.413000','2024-08-07 10:14:40.125000','2024-08-07 10:14:40.146000',21,0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349570839
+COMMIT
+/*C13*/INSERT INTO "system$queuedtask" VALUES(7881299349571498,6953,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]',NULL,NULL,'2024-08-07 10:14:40.130000','2024-08-07 10:19:39.413000',NULL,0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070100870,6945,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:09:39.475000','2024-08-07 10:14:39.413000','2024-08-07 10:14:40.122000','2024-08-07 10:14:40.146000',24,0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349570485
+COMMIT
+/*C15*/INSERT INTO "system$queuedtask" VALUES(7881299349571757,6954,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]',NULL,NULL,'2024-08-07 10:14:40.130000','2024-08-07 10:19:39.412000',NULL,0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070100750,6947,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:09:39.475000','2024-08-07 10:14:39.412000','2024-08-07 10:14:40.124000','2024-08-07 10:14:40.146000',22,0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349570755
+COMMIT
+/*C4*/INSERT INTO "system$queuedtask" VALUES(7881299349571636,6955,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]',NULL,NULL,'2024-08-07 10:14:40.130000','2024-08-07 10:19:39.413000',NULL,0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070101299,6946,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:09:39.475000','2024-08-07 10:14:39.413000','2024-08-07 10:14:40.123000','2024-08-07 10:14:40.146000',23,0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349570572
+COMMIT
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349571079
+INSERT INTO "system$queuedtask" VALUES(7881299349571079,6950,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:09:43.505000','2024-08-07 10:14:43.413000','2024-08-07 10:14:44.184000',0,NULL,'ClusterManagement-UnblockUsers',NULL)
+COMMIT
+ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6959
+INSERT INTO "system$queuedtask" VALUES(7881299349572139,6958,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]',NULL,NULL,'2024-08-07 10:14:44.188000','2024-08-07 10:19:43.413000',NULL,0,NULL,'ClusterManagement-UnblockUsers',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070101382,6950,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:09:43.505000','2024-08-07 10:14:43.413000','2024-08-07 10:14:44.184000','2024-08-07 10:14:44.189000',5,0,NULL,'ClusterManagement-UnblockUsers',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349571079
+COMMIT
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349571321
+INSERT INTO "system$queuedtask" VALUES(7881299349571321,6951,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:11:20.418000','2024-08-07 10:16:19.413000','2024-08-07 10:16:20.244000',0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+COMMIT
+ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6960
+INSERT INTO "system$queuedtask" VALUES(7881299349572306,6959,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]',NULL,NULL,'2024-08-07 10:16:20.249000','2024-08-07 10:21:19.413000',NULL,0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070101565,6951,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:11:20.418000','2024-08-07 10:16:19.413000','2024-08-07 10:16:20.244000','2024-08-07 10:16:20.251000',7,0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349571321
+COMMIT
+/*C16*/DISCONNECT
+/*C4*/DELETE FROM "system$xasinstance" WHERE "id"=1407374884628669
+INSERT INTO "system$xasinstance" VALUES(1407374884628669,'f45a3010-6324-4fa4-94b3-a12199d4d619','2024-08-07 10:17:27.529000',NULL,NULL,NULL,'2024-08-07 08:44:37.629000')
+COMMIT
+/*C15*/DELETE FROM "system$queuedtask" WHERE "id"=7881299349571398
+INSERT INTO "system$queuedtask" VALUES(7881299349571398,6952,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:13:00.230000','2024-08-07 10:17:59.413000','2024-08-07 10:18:00.267000',0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+COMMIT
+ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6961
+INSERT INTO "system$queuedtask" VALUES(7881299349572415,6960,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]',NULL,NULL,'2024-08-07 10:18:00.272000','2024-08-07 10:22:59.413000',NULL,0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070101714,6952,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:13:00.230000','2024-08-07 10:17:59.413000','2024-08-07 10:18:00.267000','2024-08-07 10:18:00.273000',6,0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349571398
+COMMIT
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349571498
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349571757
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349571636
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349571868
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349572003
+INSERT INTO "system$queuedtask" VALUES(7881299349571498,6953,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:14:40.130000','2024-08-07 10:19:39.413000','2024-08-07 10:19:40.328000',0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349571757,6954,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:14:40.130000','2024-08-07 10:19:39.412000','2024-08-07 10:19:40.328000',0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349571636,6955,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:14:40.130000','2024-08-07 10:19:39.413000','2024-08-07 10:19:40.329000',0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349571868,6956,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:14:40.130000','2024-08-07 10:19:39.413000','2024-08-07 10:19:40.329000',0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349572003,6957,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:14:40.130000','2024-08-07 10:19:39.413000','2024-08-07 10:19:40.329000',0,NULL,'ClusterManagement-CleanupSessions',NULL)
+COMMIT
+/*C13*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6965
+/*C6*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6965
+/*C5*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6965
+/*C13*/INSERT INTO "system$queuedtask" VALUES(7881299349572576,6961,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]',NULL,NULL,'2024-08-07 10:19:40.333000','2024-08-07 10:24:39.413000',NULL,0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070101847,6955,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:14:40.130000','2024-08-07 10:19:39.413000','2024-08-07 10:19:40.329000','2024-08-07 10:19:40.334000',5,0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349571636
+COMMIT
+/*C5*/INSERT INTO "system$queuedtask" VALUES(7881299349572953,6964,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]',NULL,NULL,'2024-08-07 10:19:40.333000','2024-08-07 10:24:39.413000',NULL,0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070101960,6956,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:14:40.130000','2024-08-07 10:19:39.413000','2024-08-07 10:19:40.329000','2024-08-07 10:19:40.335000',6,0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349571868
+COMMIT
+/*C6*/INSERT INTO "system$queuedtask" VALUES(7881299349572748,6962,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]',NULL,NULL,'2024-08-07 10:19:40.333000','2024-08-07 10:24:39.412000',NULL,0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070102082,6954,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:14:40.130000','2024-08-07 10:19:39.412000','2024-08-07 10:19:40.328000','2024-08-07 10:19:40.335000',7,0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349571757
+COMMIT
+/*C15*/INSERT INTO "system$queuedtask" VALUES(7881299349572644,6963,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]',NULL,NULL,'2024-08-07 10:19:40.333000','2024-08-07 10:24:39.413000',NULL,0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070102160,6953,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:14:40.130000','2024-08-07 10:19:39.413000','2024-08-07 10:19:40.328000','2024-08-07 10:19:40.335000',7,0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349571498
+COMMIT
+DELETE FROM "system$user" WHERE "id"=844424931169024
+DELETE FROM "system$userroles" WHERE "system$userid"=844424931169024 AND "system$userroleid"=5066549580792098
+DELETE FROM "system$user_language" WHERE "system$userid"=844424931169024 AND "system$languageid"=12947848928690310
+DELETE FROM "system$session_user" WHERE "system$sessionid"=11540474046161186 AND "system$userid"=844424931169024
+COMMIT
+DELETE FROM "system$session" WHERE "id"=11540474046161186
+COMMIT
+ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6966
+INSERT INTO "system$queuedtask" VALUES(7881299349573061,6965,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]',NULL,NULL,'2024-08-07 10:19:40.360000','2024-08-07 10:24:39.413000',NULL,0,NULL,'ClusterManagement-CleanupSessions',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070102285,6957,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:14:40.130000','2024-08-07 10:19:39.413000','2024-08-07 10:19:40.329000','2024-08-07 10:19:40.361000',32,0,NULL,'ClusterManagement-CleanupSessions',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349572003
+COMMIT
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349572139
+INSERT INTO "system$queuedtask" VALUES(7881299349572139,6958,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:14:44.188000','2024-08-07 10:19:43.413000','2024-08-07 10:19:44.413000',0,NULL,'ClusterManagement-UnblockUsers',NULL)
+COMMIT
+ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6967
+INSERT INTO "system$queuedtask" VALUES(7881299349573193,6966,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]',NULL,NULL,'2024-08-07 10:19:44.416000','2024-08-07 10:24:43.413000',NULL,0,NULL,'ClusterManagement-UnblockUsers',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070102522,6958,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:14:44.188000','2024-08-07 10:19:43.413000','2024-08-07 10:19:44.413000','2024-08-07 10:19:44.417000',4,0,NULL,'ClusterManagement-UnblockUsers',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349572139
+COMMIT
+DELETE FROM "system$session" WHERE "id"=11540474046161398
+INSERT INTO "system$session" VALUES(11540474046161398,'521db652-95d4-4156-ba89-42dadaaa0984','d59d589a-8852-44f7-be05-3f136bfb09cc','2024-08-07 10:20:35.705000',FALSE,'0daebd51-14cd-4a5a-9566-d968b9cc90c5',NULL,'2024-08-07 10:06:33.975000')
+COMMIT
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349572306
+INSERT INTO "system$queuedtask" VALUES(7881299349572306,6959,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:16:20.249000','2024-08-07 10:21:19.413000','2024-08-07 10:21:20.426000',0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+COMMIT
+/*C5*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6968
+INSERT INTO "system$queuedtask" VALUES(7881299349573254,6967,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]',NULL,NULL,'2024-08-07 10:21:20.430000','2024-08-07 10:26:19.413000',NULL,0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070102563,6959,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:16:20.249000','2024-08-07 10:21:19.413000','2024-08-07 10:21:20.426000','2024-08-07 10:21:20.431000',5,0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349572306
+COMMIT
+/*C12*/DISCONNECT
+/*C5*/DELETE FROM "system$session" WHERE "id"=11540474046161398
+INSERT INTO "system$session" VALUES(11540474046161398,'521db652-95d4-4156-ba89-42dadaaa0984','d59d589a-8852-44f7-be05-3f136bfb09cc','2024-08-07 10:20:35.705000',FALSE,'0daebd51-14cd-4a5a-9566-d968b9cc90c5',NULL,'2024-08-07 10:06:33.975000')
+COMMIT
+/*C4*/DELETE FROM "system$session" WHERE "id"=11540474046161398
+INSERT INTO "system$session" VALUES(11540474046161398,'521db652-95d4-4156-ba89-42dadaaa0984','d59d589a-8852-44f7-be05-3f136bfb09cc','2024-08-07 10:21:59.625000',FALSE,'0daebd51-14cd-4a5a-9566-d968b9cc90c5',NULL,'2024-08-07 10:06:33.975000')
+COMMIT
+DELETE FROM "system$session" WHERE "id"=11540474046161398
+INSERT INTO "system$session" VALUES(11540474046161398,'521db652-95d4-4156-ba89-42dadaaa0984','d59d589a-8852-44f7-be05-3f136bfb09cc','2024-08-07 10:21:59.625000',FALSE,'0daebd51-14cd-4a5a-9566-d968b9cc90c5',NULL,'2024-08-07 10:06:33.975000')
+COMMIT
+DELETE FROM "system$session" WHERE "id"=11540474046161398
+INSERT INTO "system$session" VALUES(11540474046161398,'521db652-95d4-4156-ba89-42dadaaa0984','d59d589a-8852-44f7-be05-3f136bfb09cc','2024-08-07 10:21:59.625000',FALSE,'0daebd51-14cd-4a5a-9566-d968b9cc90c5',NULL,'2024-08-07 10:06:33.975000')
+COMMIT
+DELETE FROM "system$session" WHERE "id"=11540474046161398
+INSERT INTO "system$session" VALUES(11540474046161398,'521db652-95d4-4156-ba89-42dadaaa0984','d59d589a-8852-44f7-be05-3f136bfb09cc','2024-08-07 10:21:59.625000',FALSE,'0daebd51-14cd-4a5a-9566-d968b9cc90c5',NULL,'2024-08-07 10:06:33.975000')
+COMMIT
+DELETE FROM "system$xasinstance" WHERE "id"=1407374884628669
+INSERT INTO "system$xasinstance" VALUES(1407374884628669,'f45a3010-6324-4fa4-94b3-a12199d4d619','2024-08-07 10:22:27.537000',NULL,NULL,NULL,'2024-08-07 08:44:37.629000')
+COMMIT
+DELETE FROM "system$session" WHERE "id"=11540474046161398
+INSERT INTO "system$session" VALUES(11540474046161398,'521db652-95d4-4156-ba89-42dadaaa0984','d59d589a-8852-44f7-be05-3f136bfb09cc','2024-08-07 10:21:59.625000',FALSE,'0daebd51-14cd-4a5a-9566-d968b9cc90c5',NULL,'2024-08-07 10:06:33.975000')
+COMMIT
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349572415
+INSERT INTO "system$queuedtask" VALUES(7881299349572415,6960,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:18:00.272000','2024-08-07 10:22:59.413000','2024-08-07 10:23:00.310000',0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+COMMIT
+ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6969
+INSERT INTO "system$queuedtask" VALUES(7881299349573395,6968,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]',NULL,NULL,'2024-08-07 10:23:00.315000','2024-08-07 10:27:59.413000',NULL,0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070102694,6960,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:18:00.272000','2024-08-07 10:22:59.413000','2024-08-07 10:23:00.310000','2024-08-07 10:23:00.315000',5,0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349572415
+COMMIT
+/*C5*/DELETE FROM "system$session" WHERE "id"=11540474046161398
+INSERT INTO "system$session" VALUES(11540474046161398,'521db652-95d4-4156-ba89-42dadaaa0984','d59d589a-8852-44f7-be05-3f136bfb09cc','2024-08-07 10:23:43.759000',FALSE,'0daebd51-14cd-4a5a-9566-d968b9cc90c5',NULL,'2024-08-07 10:06:33.975000')
+COMMIT
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349572576
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349572748
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349572644
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349572953
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349573061
+INSERT INTO "system$queuedtask" VALUES(7881299349572576,6961,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:19:40.333000','2024-08-07 10:24:39.413000','2024-08-07 10:24:40.018000',0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349572748,6962,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:19:40.333000','2024-08-07 10:24:39.412000','2024-08-07 10:24:40.018000',0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349572644,6963,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:19:40.333000','2024-08-07 10:24:39.413000','2024-08-07 10:24:40.018000',0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349572953,6964,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:19:40.333000','2024-08-07 10:24:39.413000','2024-08-07 10:24:40.018000',0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+INSERT INTO "system$queuedtask" VALUES(7881299349573061,6965,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:19:40.360000','2024-08-07 10:24:39.413000','2024-08-07 10:24:40.018000',0,NULL,'ClusterManagement-CleanupSessions',NULL)
+COMMIT
+/*C4*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6973
+/*C17*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6973
+/*C5*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6973
+/*C15*/ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6974
+/*C13*/INSERT INTO "system$queuedtask" VALUES(7881299349573631,6969,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]',NULL,NULL,'2024-08-07 10:24:40.026000','2024-08-07 10:29:39.413000',NULL,0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070102838,6963,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineGUIDs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:19:40.333000','2024-08-07 10:24:39.413000','2024-08-07 10:24:40.018000','2024-08-07 10:24:40.026000',8,0,NULL,'ClusterManagement-CleanupOfflineGUIDs',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349572644
+COMMIT
+/*C4*/INSERT INTO "system$queuedtask" VALUES(7881299349573899,6971,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]',NULL,NULL,'2024-08-07 10:24:40.026000','2024-08-07 10:29:39.413000',NULL,0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070102996,6964,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupTmpDocuments','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:19:40.333000','2024-08-07 10:24:39.413000','2024-08-07 10:24:40.018000','2024-08-07 10:24:40.026000',8,0,NULL,'ClusterManagement-CleanupTmpDocuments',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349572953
+COMMIT
+/*C17*/INSERT INTO "system$queuedtask" VALUES(7881299349573820,6972,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]',NULL,NULL,'2024-08-07 10:24:40.026000','2024-08-07 10:29:39.412000',NULL,0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070103044,6962,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupBackgroundJobs','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:19:40.333000','2024-08-07 10:24:39.412000','2024-08-07 10:24:40.018000','2024-08-07 10:24:40.026000',8,0,NULL,'ClusterManagement-CleanupBackgroundJobs',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349572748
+COMMIT
+/*C5*/INSERT INTO "system$queuedtask" VALUES(7881299349573637,6970,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]',NULL,NULL,'2024-08-07 10:24:40.026000','2024-08-07 10:29:39.413000',NULL,0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070103267,6961,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOfflineSyncHistory','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:19:40.333000','2024-08-07 10:24:39.413000','2024-08-07 10:24:40.018000','2024-08-07 10:24:40.026000',8,0,NULL,'ClusterManagement-CleanupOfflineSyncHistory',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349572576
+COMMIT
+/*C15*/INSERT INTO "system$queuedtask" VALUES(7881299349574120,6973,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]',NULL,NULL,'2024-08-07 10:24:40.026000','2024-08-07 10:29:39.413000',NULL,0,NULL,'ClusterManagement-CleanupSessions',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070103309,6965,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupSessions','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:19:40.360000','2024-08-07 10:24:39.413000','2024-08-07 10:24:40.018000','2024-08-07 10:24:40.026000',8,0,NULL,'ClusterManagement-CleanupSessions',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349573061
+COMMIT
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349573193
+INSERT INTO "system$queuedtask" VALUES(7881299349573193,6966,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:19:44.416000','2024-08-07 10:24:43.413000','2024-08-07 10:24:44.055000',0,NULL,'ClusterManagement-UnblockUsers',NULL)
+COMMIT
+ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6975
+INSERT INTO "system$queuedtask" VALUES(7881299349574271,6974,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]',NULL,NULL,'2024-08-07 10:24:44.055000','2024-08-07 10:29:43.413000',NULL,0,NULL,'ClusterManagement-UnblockUsers',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070103440,6966,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-UnblockUsers','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:19:44.416000','2024-08-07 10:24:43.413000','2024-08-07 10:24:44.055000','2024-08-07 10:24:44.061000',6,0,NULL,'ClusterManagement-UnblockUsers',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349573193
+COMMIT
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349573254
+INSERT INTO "system$queuedtask" VALUES(7881299349573254,6967,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:21:20.430000','2024-08-07 10:26:19.413000','2024-08-07 10:26:19.732000',0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+COMMIT
+ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6976
+INSERT INTO "system$queuedtask" VALUES(7881299349574384,6975,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]',NULL,NULL,'2024-08-07 10:26:19.736000','2024-08-07 10:31:19.413000',NULL,0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070103677,6967,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-MigrateOldFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:21:20.430000','2024-08-07 10:26:19.413000','2024-08-07 10:26:19.732000','2024-08-07 10:26:19.736000',4,0,NULL,'ClusterManagement-MigrateOldFiles',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349573254
+COMMIT
+DELETE FROM "system$session" WHERE "id"=11540474046161398
+INSERT INTO "system$session" VALUES(11540474046161398,'521db652-95d4-4156-ba89-42dadaaa0984','d59d589a-8852-44f7-be05-3f136bfb09cc','2024-08-07 10:27:01.321000',FALSE,'0daebd51-14cd-4a5a-9566-d968b9cc90c5',NULL,'2024-08-07 10:06:33.975000')
+COMMIT
+/*C17*/DELETE FROM "system$xasinstance" WHERE "id"=1407374884628669
+INSERT INTO "system$xasinstance" VALUES(1407374884628669,'f45a3010-6324-4fa4-94b3-a12199d4d619','2024-08-07 10:27:27.548000',NULL,NULL,NULL,'2024-08-07 08:44:37.629000')
+COMMIT
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349573395
+INSERT INTO "system$queuedtask" VALUES(7881299349573395,6968,'Running','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:23:00.315000','2024-08-07 10:27:59.413000','2024-08-07 10:27:59.482000',0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+COMMIT
+ALTER SEQUENCE PUBLIC."system$queuedtask_sequence_mxseq" RESTART WITH 6977
+INSERT INTO "system$queuedtask" VALUES(7881299349574476,6976,'Idle','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]',NULL,NULL,'2024-08-07 10:27:59.490000','2024-08-07 10:32:59.413000',NULL,0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+INSERT INTO "system$processedqueuetask" VALUES(11258999070103690,6968,'Completed','59651013-f9bc-4fc1-b435-276439b07899','System.ScheduledEventsQueue','ScheduledEvent',NULL,NULL,'ClusterManagement-CleanupOrphanedFiles','[]','f45a3010-6324-4fa4-94b3-a12199d4d619',48,'2024-08-07 10:23:00.315000','2024-08-07 10:27:59.413000','2024-08-07 10:27:59.482000','2024-08-07 10:27:59.490000',8,0,NULL,'ClusterManagement-CleanupOrphanedFiles',NULL)
+DELETE FROM "system$queuedtask" WHERE "id"=7881299349573395
+COMMIT
+/*C11*/DELETE FROM "mendixsystem$entityidentifier" WHERE "id"='f95c0569-5989-4bd5-b39a-74b03125cb12'
+INSERT INTO "mendixsystem$entityidentifier" VALUES('f95c0569-5989-4bd5-b39a-74b03125cb12',58,1401)
+COMMIT
+ALTER SEQUENCE PUBLIC."system$filedocument_fileid_mxseq" RESTART WITH 37
+DELETE FROM "system$session" WHERE "id"=11540474046161398
+INSERT INTO "system$session" VALUES(11540474046161398,'521db652-95d4-4156-ba89-42dadaaa0984','d59d589a-8852-44f7-be05-3f136bfb09cc','2024-08-07 10:28:45.779000',FALSE,'0daebd51-14cd-4a5a-9566-d968b9cc90c5',NULL,'2024-08-07 10:06:33.975000')
+COMMIT
