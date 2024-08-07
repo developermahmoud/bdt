@@ -20,9 +20,7 @@ public class Role
 	 */
 	public enum MemberNames
 	{
-		Name("Name"),
-		Role_InvolvedParties_Host("Main.Role_InvolvedParties_Host"),
-		Role_InvolvedParties_Invitee("Main.Role_InvolvedParties_Invitee");
+		Name("Name");
 
 		private final java.lang.String metaName;
 
@@ -159,100 +157,6 @@ public class Role
 	public final void setName(com.mendix.systemwideinterfaces.core.IContext context, java.lang.String name)
 	{
 		getMendixObject().setValue(context, MemberNames.Name.toString(), name);
-	}
-
-	/**
-	 * @throws com.mendix.core.CoreException
-	 * @return value of Role_InvolvedParties_Host
-	 */
-	public final main.proxies.InvolvedParties getRole_InvolvedParties_Host() throws com.mendix.core.CoreException
-	{
-		return getRole_InvolvedParties_Host(getContext());
-	}
-
-	/**
-	 * @param context
-	 * @return value of Role_InvolvedParties_Host
-	 * @throws com.mendix.core.CoreException
-	 */
-	public final main.proxies.InvolvedParties getRole_InvolvedParties_Host(com.mendix.systemwideinterfaces.core.IContext context) throws com.mendix.core.CoreException
-	{
-		main.proxies.InvolvedParties result = null;
-		com.mendix.systemwideinterfaces.core.IMendixIdentifier identifier = getMendixObject().getValue(context, MemberNames.Role_InvolvedParties_Host.toString());
-		if (identifier != null) {
-			result = main.proxies.InvolvedParties.load(context, identifier);
-		}
-		return result;
-	}
-
-	/**
-	 * Set value of Role_InvolvedParties_Host
-	 * @param role_involvedparties_host
-	 */
-	public final void setRole_InvolvedParties_Host(main.proxies.InvolvedParties role_involvedparties_host)
-	{
-		setRole_InvolvedParties_Host(getContext(), role_involvedparties_host);
-	}
-
-	/**
-	 * Set value of Role_InvolvedParties_Host
-	 * @param context
-	 * @param role_involvedparties_host
-	 */
-	public final void setRole_InvolvedParties_Host(com.mendix.systemwideinterfaces.core.IContext context, main.proxies.InvolvedParties role_involvedparties_host)
-	{
-		if (role_involvedparties_host == null) {
-			getMendixObject().setValue(context, MemberNames.Role_InvolvedParties_Host.toString(), null);
-		} else {
-			getMendixObject().setValue(context, MemberNames.Role_InvolvedParties_Host.toString(), role_involvedparties_host.getMendixObject().getId());
-		}
-	}
-
-	/**
-	 * @throws com.mendix.core.CoreException
-	 * @return value of Role_InvolvedParties_Invitee
-	 */
-	public final main.proxies.InvolvedParties getRole_InvolvedParties_Invitee() throws com.mendix.core.CoreException
-	{
-		return getRole_InvolvedParties_Invitee(getContext());
-	}
-
-	/**
-	 * @param context
-	 * @return value of Role_InvolvedParties_Invitee
-	 * @throws com.mendix.core.CoreException
-	 */
-	public final main.proxies.InvolvedParties getRole_InvolvedParties_Invitee(com.mendix.systemwideinterfaces.core.IContext context) throws com.mendix.core.CoreException
-	{
-		main.proxies.InvolvedParties result = null;
-		com.mendix.systemwideinterfaces.core.IMendixIdentifier identifier = getMendixObject().getValue(context, MemberNames.Role_InvolvedParties_Invitee.toString());
-		if (identifier != null) {
-			result = main.proxies.InvolvedParties.load(context, identifier);
-		}
-		return result;
-	}
-
-	/**
-	 * Set value of Role_InvolvedParties_Invitee
-	 * @param role_involvedparties_invitee
-	 */
-	public final void setRole_InvolvedParties_Invitee(main.proxies.InvolvedParties role_involvedparties_invitee)
-	{
-		setRole_InvolvedParties_Invitee(getContext(), role_involvedparties_invitee);
-	}
-
-	/**
-	 * Set value of Role_InvolvedParties_Invitee
-	 * @param context
-	 * @param role_involvedparties_invitee
-	 */
-	public final void setRole_InvolvedParties_Invitee(com.mendix.systemwideinterfaces.core.IContext context, main.proxies.InvolvedParties role_involvedparties_invitee)
-	{
-		if (role_involvedparties_invitee == null) {
-			getMendixObject().setValue(context, MemberNames.Role_InvolvedParties_Invitee.toString(), null);
-		} else {
-			getMendixObject().setValue(context, MemberNames.Role_InvolvedParties_Invitee.toString(), role_involvedparties_invitee.getMendixObject().getId());
-		}
 	}
 
 	/**

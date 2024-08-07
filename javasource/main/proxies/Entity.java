@@ -20,9 +20,7 @@ public class Entity
 	 */
 	public enum MemberNames
 	{
-		Name("Name"),
-		Entity_InvolvedParties_Host("Main.Entity_InvolvedParties_Host"),
-		Entity_InvolvedParties_Invitee("Main.Entity_InvolvedParties_Invitee");
+		Name("Name");
 
 		private final java.lang.String metaName;
 
@@ -159,100 +157,6 @@ public class Entity
 	public final void setName(com.mendix.systemwideinterfaces.core.IContext context, java.lang.String name)
 	{
 		getMendixObject().setValue(context, MemberNames.Name.toString(), name);
-	}
-
-	/**
-	 * @throws com.mendix.core.CoreException
-	 * @return value of Entity_InvolvedParties_Host
-	 */
-	public final main.proxies.InvolvedParties getEntity_InvolvedParties_Host() throws com.mendix.core.CoreException
-	{
-		return getEntity_InvolvedParties_Host(getContext());
-	}
-
-	/**
-	 * @param context
-	 * @return value of Entity_InvolvedParties_Host
-	 * @throws com.mendix.core.CoreException
-	 */
-	public final main.proxies.InvolvedParties getEntity_InvolvedParties_Host(com.mendix.systemwideinterfaces.core.IContext context) throws com.mendix.core.CoreException
-	{
-		main.proxies.InvolvedParties result = null;
-		com.mendix.systemwideinterfaces.core.IMendixIdentifier identifier = getMendixObject().getValue(context, MemberNames.Entity_InvolvedParties_Host.toString());
-		if (identifier != null) {
-			result = main.proxies.InvolvedParties.load(context, identifier);
-		}
-		return result;
-	}
-
-	/**
-	 * Set value of Entity_InvolvedParties_Host
-	 * @param entity_involvedparties_host
-	 */
-	public final void setEntity_InvolvedParties_Host(main.proxies.InvolvedParties entity_involvedparties_host)
-	{
-		setEntity_InvolvedParties_Host(getContext(), entity_involvedparties_host);
-	}
-
-	/**
-	 * Set value of Entity_InvolvedParties_Host
-	 * @param context
-	 * @param entity_involvedparties_host
-	 */
-	public final void setEntity_InvolvedParties_Host(com.mendix.systemwideinterfaces.core.IContext context, main.proxies.InvolvedParties entity_involvedparties_host)
-	{
-		if (entity_involvedparties_host == null) {
-			getMendixObject().setValue(context, MemberNames.Entity_InvolvedParties_Host.toString(), null);
-		} else {
-			getMendixObject().setValue(context, MemberNames.Entity_InvolvedParties_Host.toString(), entity_involvedparties_host.getMendixObject().getId());
-		}
-	}
-
-	/**
-	 * @throws com.mendix.core.CoreException
-	 * @return value of Entity_InvolvedParties_Invitee
-	 */
-	public final main.proxies.InvolvedParties getEntity_InvolvedParties_Invitee() throws com.mendix.core.CoreException
-	{
-		return getEntity_InvolvedParties_Invitee(getContext());
-	}
-
-	/**
-	 * @param context
-	 * @return value of Entity_InvolvedParties_Invitee
-	 * @throws com.mendix.core.CoreException
-	 */
-	public final main.proxies.InvolvedParties getEntity_InvolvedParties_Invitee(com.mendix.systemwideinterfaces.core.IContext context) throws com.mendix.core.CoreException
-	{
-		main.proxies.InvolvedParties result = null;
-		com.mendix.systemwideinterfaces.core.IMendixIdentifier identifier = getMendixObject().getValue(context, MemberNames.Entity_InvolvedParties_Invitee.toString());
-		if (identifier != null) {
-			result = main.proxies.InvolvedParties.load(context, identifier);
-		}
-		return result;
-	}
-
-	/**
-	 * Set value of Entity_InvolvedParties_Invitee
-	 * @param entity_involvedparties_invitee
-	 */
-	public final void setEntity_InvolvedParties_Invitee(main.proxies.InvolvedParties entity_involvedparties_invitee)
-	{
-		setEntity_InvolvedParties_Invitee(getContext(), entity_involvedparties_invitee);
-	}
-
-	/**
-	 * Set value of Entity_InvolvedParties_Invitee
-	 * @param context
-	 * @param entity_involvedparties_invitee
-	 */
-	public final void setEntity_InvolvedParties_Invitee(com.mendix.systemwideinterfaces.core.IContext context, main.proxies.InvolvedParties entity_involvedparties_invitee)
-	{
-		if (entity_involvedparties_invitee == null) {
-			getMendixObject().setValue(context, MemberNames.Entity_InvolvedParties_Invitee.toString(), null);
-		} else {
-			getMendixObject().setValue(context, MemberNames.Entity_InvolvedParties_Invitee.toString(), entity_involvedparties_invitee.getMendixObject().getId());
-		}
 	}
 
 	/**

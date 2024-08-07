@@ -20,9 +20,7 @@ public class Scope
 	 */
 	public enum MemberNames
 	{
-		Name("Name"),
-		Scope_InvolvedParties_Host("Main.Scope_InvolvedParties_Host"),
-		Scope_InvolvedParties_Invitee("Main.Scope_InvolvedParties_Invitee");
+		Name("Name");
 
 		private final java.lang.String metaName;
 
@@ -159,100 +157,6 @@ public class Scope
 	public final void setName(com.mendix.systemwideinterfaces.core.IContext context, java.lang.String name)
 	{
 		getMendixObject().setValue(context, MemberNames.Name.toString(), name);
-	}
-
-	/**
-	 * @throws com.mendix.core.CoreException
-	 * @return value of Scope_InvolvedParties_Host
-	 */
-	public final main.proxies.InvolvedParties getScope_InvolvedParties_Host() throws com.mendix.core.CoreException
-	{
-		return getScope_InvolvedParties_Host(getContext());
-	}
-
-	/**
-	 * @param context
-	 * @return value of Scope_InvolvedParties_Host
-	 * @throws com.mendix.core.CoreException
-	 */
-	public final main.proxies.InvolvedParties getScope_InvolvedParties_Host(com.mendix.systemwideinterfaces.core.IContext context) throws com.mendix.core.CoreException
-	{
-		main.proxies.InvolvedParties result = null;
-		com.mendix.systemwideinterfaces.core.IMendixIdentifier identifier = getMendixObject().getValue(context, MemberNames.Scope_InvolvedParties_Host.toString());
-		if (identifier != null) {
-			result = main.proxies.InvolvedParties.load(context, identifier);
-		}
-		return result;
-	}
-
-	/**
-	 * Set value of Scope_InvolvedParties_Host
-	 * @param scope_involvedparties_host
-	 */
-	public final void setScope_InvolvedParties_Host(main.proxies.InvolvedParties scope_involvedparties_host)
-	{
-		setScope_InvolvedParties_Host(getContext(), scope_involvedparties_host);
-	}
-
-	/**
-	 * Set value of Scope_InvolvedParties_Host
-	 * @param context
-	 * @param scope_involvedparties_host
-	 */
-	public final void setScope_InvolvedParties_Host(com.mendix.systemwideinterfaces.core.IContext context, main.proxies.InvolvedParties scope_involvedparties_host)
-	{
-		if (scope_involvedparties_host == null) {
-			getMendixObject().setValue(context, MemberNames.Scope_InvolvedParties_Host.toString(), null);
-		} else {
-			getMendixObject().setValue(context, MemberNames.Scope_InvolvedParties_Host.toString(), scope_involvedparties_host.getMendixObject().getId());
-		}
-	}
-
-	/**
-	 * @throws com.mendix.core.CoreException
-	 * @return value of Scope_InvolvedParties_Invitee
-	 */
-	public final main.proxies.InvolvedParties getScope_InvolvedParties_Invitee() throws com.mendix.core.CoreException
-	{
-		return getScope_InvolvedParties_Invitee(getContext());
-	}
-
-	/**
-	 * @param context
-	 * @return value of Scope_InvolvedParties_Invitee
-	 * @throws com.mendix.core.CoreException
-	 */
-	public final main.proxies.InvolvedParties getScope_InvolvedParties_Invitee(com.mendix.systemwideinterfaces.core.IContext context) throws com.mendix.core.CoreException
-	{
-		main.proxies.InvolvedParties result = null;
-		com.mendix.systemwideinterfaces.core.IMendixIdentifier identifier = getMendixObject().getValue(context, MemberNames.Scope_InvolvedParties_Invitee.toString());
-		if (identifier != null) {
-			result = main.proxies.InvolvedParties.load(context, identifier);
-		}
-		return result;
-	}
-
-	/**
-	 * Set value of Scope_InvolvedParties_Invitee
-	 * @param scope_involvedparties_invitee
-	 */
-	public final void setScope_InvolvedParties_Invitee(main.proxies.InvolvedParties scope_involvedparties_invitee)
-	{
-		setScope_InvolvedParties_Invitee(getContext(), scope_involvedparties_invitee);
-	}
-
-	/**
-	 * Set value of Scope_InvolvedParties_Invitee
-	 * @param context
-	 * @param scope_involvedparties_invitee
-	 */
-	public final void setScope_InvolvedParties_Invitee(com.mendix.systemwideinterfaces.core.IContext context, main.proxies.InvolvedParties scope_involvedparties_invitee)
-	{
-		if (scope_involvedparties_invitee == null) {
-			getMendixObject().setValue(context, MemberNames.Scope_InvolvedParties_Invitee.toString(), null);
-		} else {
-			getMendixObject().setValue(context, MemberNames.Scope_InvolvedParties_Invitee.toString(), scope_involvedparties_invitee.getMendixObject().getId());
-		}
 	}
 
 	/**

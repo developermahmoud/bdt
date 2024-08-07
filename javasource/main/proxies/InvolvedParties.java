@@ -22,7 +22,14 @@ public class InvolvedParties
 	{
 		HostEnabled("HostEnabled"),
 		InviteeEnabled("InviteeEnabled"),
-		PartneringType("PartneringType");
+		PartneringType("PartneringType"),
+		InvolvedParties_Lead("Main.InvolvedParties_Lead"),
+		InvolvedParties_Entity_Host("Main.InvolvedParties_Entity_Host"),
+		InvolvedParties_Entity_Invitee("Main.InvolvedParties_Entity_Invitee"),
+		InvolvedParties_Role_Host("Main.InvolvedParties_Role_Host"),
+		InvolvedParties_Role_Invitee("Main.InvolvedParties_Role_Invitee"),
+		InvolvedParties_Scope_Host("Main.InvolvedParties_Scope_Host"),
+		InvolvedParties_Scope_Invitee("Main.InvolvedParties_Scope_Invitee");
 
 		private final java.lang.String metaName;
 
@@ -239,6 +246,335 @@ public class InvolvedParties
 			getMendixObject().setValue(context, MemberNames.PartneringType.toString(), partneringtype.toString());
 		} else {
 			getMendixObject().setValue(context, MemberNames.PartneringType.toString(), null);
+		}
+	}
+
+	/**
+	 * @throws com.mendix.core.CoreException
+	 * @return value of InvolvedParties_Lead
+	 */
+	public final main.proxies.Lead getInvolvedParties_Lead() throws com.mendix.core.CoreException
+	{
+		return getInvolvedParties_Lead(getContext());
+	}
+
+	/**
+	 * @param context
+	 * @return value of InvolvedParties_Lead
+	 * @throws com.mendix.core.CoreException
+	 */
+	public final main.proxies.Lead getInvolvedParties_Lead(com.mendix.systemwideinterfaces.core.IContext context) throws com.mendix.core.CoreException
+	{
+		main.proxies.Lead result = null;
+		com.mendix.systemwideinterfaces.core.IMendixIdentifier identifier = getMendixObject().getValue(context, MemberNames.InvolvedParties_Lead.toString());
+		if (identifier != null) {
+			result = main.proxies.Lead.load(context, identifier);
+		}
+		return result;
+	}
+
+	/**
+	 * Set value of InvolvedParties_Lead
+	 * @param involvedparties_lead
+	 */
+	public final void setInvolvedParties_Lead(main.proxies.Lead involvedparties_lead)
+	{
+		setInvolvedParties_Lead(getContext(), involvedparties_lead);
+	}
+
+	/**
+	 * Set value of InvolvedParties_Lead
+	 * @param context
+	 * @param involvedparties_lead
+	 */
+	public final void setInvolvedParties_Lead(com.mendix.systemwideinterfaces.core.IContext context, main.proxies.Lead involvedparties_lead)
+	{
+		if (involvedparties_lead == null) {
+			getMendixObject().setValue(context, MemberNames.InvolvedParties_Lead.toString(), null);
+		} else {
+			getMendixObject().setValue(context, MemberNames.InvolvedParties_Lead.toString(), involvedparties_lead.getMendixObject().getId());
+		}
+	}
+
+	/**
+	 * @throws com.mendix.core.CoreException
+	 * @return value of InvolvedParties_Entity_Host
+	 */
+	public final main.proxies.Entity getInvolvedParties_Entity_Host() throws com.mendix.core.CoreException
+	{
+		return getInvolvedParties_Entity_Host(getContext());
+	}
+
+	/**
+	 * @param context
+	 * @return value of InvolvedParties_Entity_Host
+	 * @throws com.mendix.core.CoreException
+	 */
+	public final main.proxies.Entity getInvolvedParties_Entity_Host(com.mendix.systemwideinterfaces.core.IContext context) throws com.mendix.core.CoreException
+	{
+		main.proxies.Entity result = null;
+		com.mendix.systemwideinterfaces.core.IMendixIdentifier identifier = getMendixObject().getValue(context, MemberNames.InvolvedParties_Entity_Host.toString());
+		if (identifier != null) {
+			result = main.proxies.Entity.load(context, identifier);
+		}
+		return result;
+	}
+
+	/**
+	 * Set value of InvolvedParties_Entity_Host
+	 * @param involvedparties_entity_host
+	 */
+	public final void setInvolvedParties_Entity_Host(main.proxies.Entity involvedparties_entity_host)
+	{
+		setInvolvedParties_Entity_Host(getContext(), involvedparties_entity_host);
+	}
+
+	/**
+	 * Set value of InvolvedParties_Entity_Host
+	 * @param context
+	 * @param involvedparties_entity_host
+	 */
+	public final void setInvolvedParties_Entity_Host(com.mendix.systemwideinterfaces.core.IContext context, main.proxies.Entity involvedparties_entity_host)
+	{
+		if (involvedparties_entity_host == null) {
+			getMendixObject().setValue(context, MemberNames.InvolvedParties_Entity_Host.toString(), null);
+		} else {
+			getMendixObject().setValue(context, MemberNames.InvolvedParties_Entity_Host.toString(), involvedparties_entity_host.getMendixObject().getId());
+		}
+	}
+
+	/**
+	 * @throws com.mendix.core.CoreException
+	 * @return value of InvolvedParties_Entity_Invitee
+	 */
+	public final main.proxies.Entity getInvolvedParties_Entity_Invitee() throws com.mendix.core.CoreException
+	{
+		return getInvolvedParties_Entity_Invitee(getContext());
+	}
+
+	/**
+	 * @param context
+	 * @return value of InvolvedParties_Entity_Invitee
+	 * @throws com.mendix.core.CoreException
+	 */
+	public final main.proxies.Entity getInvolvedParties_Entity_Invitee(com.mendix.systemwideinterfaces.core.IContext context) throws com.mendix.core.CoreException
+	{
+		main.proxies.Entity result = null;
+		com.mendix.systemwideinterfaces.core.IMendixIdentifier identifier = getMendixObject().getValue(context, MemberNames.InvolvedParties_Entity_Invitee.toString());
+		if (identifier != null) {
+			result = main.proxies.Entity.load(context, identifier);
+		}
+		return result;
+	}
+
+	/**
+	 * Set value of InvolvedParties_Entity_Invitee
+	 * @param involvedparties_entity_invitee
+	 */
+	public final void setInvolvedParties_Entity_Invitee(main.proxies.Entity involvedparties_entity_invitee)
+	{
+		setInvolvedParties_Entity_Invitee(getContext(), involvedparties_entity_invitee);
+	}
+
+	/**
+	 * Set value of InvolvedParties_Entity_Invitee
+	 * @param context
+	 * @param involvedparties_entity_invitee
+	 */
+	public final void setInvolvedParties_Entity_Invitee(com.mendix.systemwideinterfaces.core.IContext context, main.proxies.Entity involvedparties_entity_invitee)
+	{
+		if (involvedparties_entity_invitee == null) {
+			getMendixObject().setValue(context, MemberNames.InvolvedParties_Entity_Invitee.toString(), null);
+		} else {
+			getMendixObject().setValue(context, MemberNames.InvolvedParties_Entity_Invitee.toString(), involvedparties_entity_invitee.getMendixObject().getId());
+		}
+	}
+
+	/**
+	 * @throws com.mendix.core.CoreException
+	 * @return value of InvolvedParties_Role_Host
+	 */
+	public final main.proxies.Role getInvolvedParties_Role_Host() throws com.mendix.core.CoreException
+	{
+		return getInvolvedParties_Role_Host(getContext());
+	}
+
+	/**
+	 * @param context
+	 * @return value of InvolvedParties_Role_Host
+	 * @throws com.mendix.core.CoreException
+	 */
+	public final main.proxies.Role getInvolvedParties_Role_Host(com.mendix.systemwideinterfaces.core.IContext context) throws com.mendix.core.CoreException
+	{
+		main.proxies.Role result = null;
+		com.mendix.systemwideinterfaces.core.IMendixIdentifier identifier = getMendixObject().getValue(context, MemberNames.InvolvedParties_Role_Host.toString());
+		if (identifier != null) {
+			result = main.proxies.Role.load(context, identifier);
+		}
+		return result;
+	}
+
+	/**
+	 * Set value of InvolvedParties_Role_Host
+	 * @param involvedparties_role_host
+	 */
+	public final void setInvolvedParties_Role_Host(main.proxies.Role involvedparties_role_host)
+	{
+		setInvolvedParties_Role_Host(getContext(), involvedparties_role_host);
+	}
+
+	/**
+	 * Set value of InvolvedParties_Role_Host
+	 * @param context
+	 * @param involvedparties_role_host
+	 */
+	public final void setInvolvedParties_Role_Host(com.mendix.systemwideinterfaces.core.IContext context, main.proxies.Role involvedparties_role_host)
+	{
+		if (involvedparties_role_host == null) {
+			getMendixObject().setValue(context, MemberNames.InvolvedParties_Role_Host.toString(), null);
+		} else {
+			getMendixObject().setValue(context, MemberNames.InvolvedParties_Role_Host.toString(), involvedparties_role_host.getMendixObject().getId());
+		}
+	}
+
+	/**
+	 * @throws com.mendix.core.CoreException
+	 * @return value of InvolvedParties_Role_Invitee
+	 */
+	public final main.proxies.Role getInvolvedParties_Role_Invitee() throws com.mendix.core.CoreException
+	{
+		return getInvolvedParties_Role_Invitee(getContext());
+	}
+
+	/**
+	 * @param context
+	 * @return value of InvolvedParties_Role_Invitee
+	 * @throws com.mendix.core.CoreException
+	 */
+	public final main.proxies.Role getInvolvedParties_Role_Invitee(com.mendix.systemwideinterfaces.core.IContext context) throws com.mendix.core.CoreException
+	{
+		main.proxies.Role result = null;
+		com.mendix.systemwideinterfaces.core.IMendixIdentifier identifier = getMendixObject().getValue(context, MemberNames.InvolvedParties_Role_Invitee.toString());
+		if (identifier != null) {
+			result = main.proxies.Role.load(context, identifier);
+		}
+		return result;
+	}
+
+	/**
+	 * Set value of InvolvedParties_Role_Invitee
+	 * @param involvedparties_role_invitee
+	 */
+	public final void setInvolvedParties_Role_Invitee(main.proxies.Role involvedparties_role_invitee)
+	{
+		setInvolvedParties_Role_Invitee(getContext(), involvedparties_role_invitee);
+	}
+
+	/**
+	 * Set value of InvolvedParties_Role_Invitee
+	 * @param context
+	 * @param involvedparties_role_invitee
+	 */
+	public final void setInvolvedParties_Role_Invitee(com.mendix.systemwideinterfaces.core.IContext context, main.proxies.Role involvedparties_role_invitee)
+	{
+		if (involvedparties_role_invitee == null) {
+			getMendixObject().setValue(context, MemberNames.InvolvedParties_Role_Invitee.toString(), null);
+		} else {
+			getMendixObject().setValue(context, MemberNames.InvolvedParties_Role_Invitee.toString(), involvedparties_role_invitee.getMendixObject().getId());
+		}
+	}
+
+	/**
+	 * @throws com.mendix.core.CoreException
+	 * @return value of InvolvedParties_Scope_Host
+	 */
+	public final main.proxies.Scope getInvolvedParties_Scope_Host() throws com.mendix.core.CoreException
+	{
+		return getInvolvedParties_Scope_Host(getContext());
+	}
+
+	/**
+	 * @param context
+	 * @return value of InvolvedParties_Scope_Host
+	 * @throws com.mendix.core.CoreException
+	 */
+	public final main.proxies.Scope getInvolvedParties_Scope_Host(com.mendix.systemwideinterfaces.core.IContext context) throws com.mendix.core.CoreException
+	{
+		main.proxies.Scope result = null;
+		com.mendix.systemwideinterfaces.core.IMendixIdentifier identifier = getMendixObject().getValue(context, MemberNames.InvolvedParties_Scope_Host.toString());
+		if (identifier != null) {
+			result = main.proxies.Scope.load(context, identifier);
+		}
+		return result;
+	}
+
+	/**
+	 * Set value of InvolvedParties_Scope_Host
+	 * @param involvedparties_scope_host
+	 */
+	public final void setInvolvedParties_Scope_Host(main.proxies.Scope involvedparties_scope_host)
+	{
+		setInvolvedParties_Scope_Host(getContext(), involvedparties_scope_host);
+	}
+
+	/**
+	 * Set value of InvolvedParties_Scope_Host
+	 * @param context
+	 * @param involvedparties_scope_host
+	 */
+	public final void setInvolvedParties_Scope_Host(com.mendix.systemwideinterfaces.core.IContext context, main.proxies.Scope involvedparties_scope_host)
+	{
+		if (involvedparties_scope_host == null) {
+			getMendixObject().setValue(context, MemberNames.InvolvedParties_Scope_Host.toString(), null);
+		} else {
+			getMendixObject().setValue(context, MemberNames.InvolvedParties_Scope_Host.toString(), involvedparties_scope_host.getMendixObject().getId());
+		}
+	}
+
+	/**
+	 * @throws com.mendix.core.CoreException
+	 * @return value of InvolvedParties_Scope_Invitee
+	 */
+	public final main.proxies.Scope getInvolvedParties_Scope_Invitee() throws com.mendix.core.CoreException
+	{
+		return getInvolvedParties_Scope_Invitee(getContext());
+	}
+
+	/**
+	 * @param context
+	 * @return value of InvolvedParties_Scope_Invitee
+	 * @throws com.mendix.core.CoreException
+	 */
+	public final main.proxies.Scope getInvolvedParties_Scope_Invitee(com.mendix.systemwideinterfaces.core.IContext context) throws com.mendix.core.CoreException
+	{
+		main.proxies.Scope result = null;
+		com.mendix.systemwideinterfaces.core.IMendixIdentifier identifier = getMendixObject().getValue(context, MemberNames.InvolvedParties_Scope_Invitee.toString());
+		if (identifier != null) {
+			result = main.proxies.Scope.load(context, identifier);
+		}
+		return result;
+	}
+
+	/**
+	 * Set value of InvolvedParties_Scope_Invitee
+	 * @param involvedparties_scope_invitee
+	 */
+	public final void setInvolvedParties_Scope_Invitee(main.proxies.Scope involvedparties_scope_invitee)
+	{
+		setInvolvedParties_Scope_Invitee(getContext(), involvedparties_scope_invitee);
+	}
+
+	/**
+	 * Set value of InvolvedParties_Scope_Invitee
+	 * @param context
+	 * @param involvedparties_scope_invitee
+	 */
+	public final void setInvolvedParties_Scope_Invitee(com.mendix.systemwideinterfaces.core.IContext context, main.proxies.Scope involvedparties_scope_invitee)
+	{
+		if (involvedparties_scope_invitee == null) {
+			getMendixObject().setValue(context, MemberNames.InvolvedParties_Scope_Invitee.toString(), null);
+		} else {
+			getMendixObject().setValue(context, MemberNames.InvolvedParties_Scope_Invitee.toString(), involvedparties_scope_invitee.getMendixObject().getId());
 		}
 	}
 
